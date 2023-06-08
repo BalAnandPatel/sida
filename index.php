@@ -188,7 +188,7 @@ include "include/header.php";
     <div class="topbg">
         <div class="container imp-note">
             <div class="row">
-                <div class="col-md-12">
+                <!-- <div class="col-md-12">
                     <div class="rborder" tabindex="0">
                         <a href="#">
                             For any issues in completing OBPAS
@@ -196,7 +196,7 @@ include "include/header.php";
                             <span>Kirti - +91 94154 03450</span>
                         </a>
                     </div>
-                </div>
+                </div> -->
                 <!--<div class="col-md-12">
                     <div class="rborder" tabindex="0">
                         <a href="pdf/Industrial-plots.pdf" target="_blank">
