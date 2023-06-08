@@ -1,0 +1,6200 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+/* @import url('css/font-awesome.min.css');*/
+
+/* In html file */
+/*<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta content="width=device-width, initial-scale=1" name="viewport">
+<meta name="viewport" content="width=device-width">*/
+
+/**
+ * 8.0 Media Queries
+ * ----------------------------------------------------------------------------
+ */
+
+/* Does the same thing as <meta name="viewport" content="width=device-width">,
+ * but in the future W3C standard way. -ms- prefix is required for IE10+ to
+ * render responsive styling in Windows 8 "snapped" views; IE10+ does not honor
+ * the meta tag. See https://core.trac.wordpress.org/ticket/25888.
+ */
+@-ms-viewport {
+    width:device-width;
+   
+}
+
+@viewport {
+  width:device-width;
+}
+@media (max-width: 1365px) {
+
+      .button-new {
+    width: 151px;
+}
+   .web-admin {
+       width: 118px;
+    background-color: #000c4e;
+    color: white;
+    margin-right: 8px;
+}
+    .web-mail {
+    width: 86px;
+    background-color: #14946b;
+    color: white;
+    margin-right: 8px;
+}
+    .why-upsida2 .brand-upsida {
+        box-shadow: 2px 2px 5px 1px #ccc;
+        align-items: stretch;
+        height: auto;
+    }
+ /*.pdf-reaport {
+    width: 100%;
+    height: auto;
+}*/
+    .Industrialblock {
+        display: flex;
+        flex-direction: row;
+    }
+    .button-new {
+    width: 69px;
+}
+    .all-sector li {
+    width: 49%;
+}
+
+    .in-banner {
+        margin-top: 62px;
+    }
+
+    .navbar-brand {
+    display: inline-block;
+    width: 13%;
+}
+    .announcement h3 {
+    font-size: 22px;
+    background: #f69a03;
+    padding: 16px 17px;
+}
+    .navbar {
+    padding: 0.3rem 0rem !important;
+}
+     .navbar-brand img {
+    float: left;
+    width: 61%;
+}
+a.nav-link {
+    color: #1d0378 !important;
+    text-transform: uppercase;
+    font-weight: 500;
+    /* margin: 0px 26px; */
+    font-size: 12px;
+    padding: 9px 3px !important;
+}
+    .contentarea {
+        background-color: #fbfbfb;
+        padding: 11px;
+    }
+
+    .service {
+        margin-bottom: 127px;
+    }
+
+    .news-sec:before {
+    left: 175px;
+    top: -10px;
+}
+
+    .news-sec:after {
+    right: 171px;
+    bottom: 103px;
+}
+
+    .flip-box-front p {
+        font-size: 26px;
+    }
+
+    .linkstitle1 {
+    margin-bottom: 94px;
+}
+
+    section.aboutUs p {
+    font-size: 18px;
+    text-align: justify;
+}
+
+  
+    .impo-information li {
+    width: 48%;
+    margin-left: 16px;
+}
+
+    .carousel-inner {
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .b-lead h4 {
+        display: none;
+    }
+
+    .b-lead p {
+        display: none;
+    }
+
+    .b-lead {
+        padding: 6px;
+        width: 160px;
+        height: 162px;
+    }
+
+    .tbox {
+        text-align: center;
+    }
+
+        .tbox span {
+            text-align: center;
+        }
+
+   .b-lead-r {
+    top: 31%;
+    left: 6%;
+}
+
+   .feat_section .feature_box {
+    width: 33%;
+}
+   .twitter-title {
+    margin-top: -55px;
+    background: #1d9bf0;
+    color: #fff;
+    padding: 6px 8px;
+    /* margin: 0px; */
+}
+    section.social-media-sec .col-lg-4 {
+        margin-bottom: 36px !IMPORTANT;
+    }
+
+    .tbox {
+        margin: 20px 0px;
+    }
+
+    #myVideo {
+        height: 450px;
+    }
+
+   a.govt-logoarea h5 {
+    font-size: 20px;
+}
+
+    footer a {
+          font-size: 16px;
+        color: #ffffff;
+    }
+
+    h4.f-title {
+        font-size: 30px;
+    }
+
+    .feat_section .panel-default {
+        margin: 20px auto;
+    }
+
+    .investorguide-btm img {
+        margin-bottom: 30px;
+    }
+
+    .all-sector li a {
+    font-size: 20px;
+}
+
+   .card-header.secondry-heading {
+    font-size: 18px;
+}
+
+    li.news-item tr td {
+    font-size: 16px;
+    display: block;
+    padding: 17px 15px;
+}
+
+    .loginlogo {
+        width: 54%;
+    }
+    #gallery .gallery-inner3 .titels-3 {
+        margin-top: -117px;
+    width: 79.3%;
+    font-size: 15px;
+    }
+    #aboutus-tabs .tabs-content{
+        width: 100%;
+        align-items: stretch;
+}
+#aboutus-tabs .tabs-btn{
+     width: 100%;
+       align-items: stretch;
+
+}
+ #polices-tabs .tabs-content{
+        width: 100%;
+        align-items: stretch;
+}
+#polices-tabs .tabs-btn{
+     width: 100%;
+       align-items: stretch;
+
+}
+.head-group .bg-head-office-info {
+    margin-left:0px;
+        margin-top: 20px;
+ width: 667px;
+    }
+.mmps{
+          width: 624px;
+    
+ }
+
+.leader3 .text-group22 input{
+      
+    width: 100%;
+}
+
+.tables-sec table thead .pdf-selection3 {
+    width: 70%;
+}.tables-sec table .calendar {
+   
+  width:100%;
+    text-align: center;
+     margin-right: 0px;
+  
+}.tables-sec .table td button {
+    padding: 8px 22px;
+  
+}
+ .why-upsida2 .brand-upsida {
+        box-shadow: 2px 2px 5px 1px #ccc;
+        align-items: stretch;
+        height: auto;
+    }
+}
+@media (max-width: 1330px) {
+
+      .button-new {
+    width: 151px;
+}
+   .web-admin {
+       width: 95px;
+    background-color: #000c4e;
+    color: white;
+    margin-right: 8px;
+}
+    .web-mail {
+    width: 86px;
+    background-color: #14946b;
+    color: white;
+    margin-right: 8px;
+}
+    .why-upsida2 .brand-upsida {
+        box-shadow: 2px 2px 5px 1px #ccc;
+        align-items: stretch;
+        height: auto;
+    }
+ /*.pdf-reaport {
+    width: 100%;
+    height: auto;
+}*/
+    .Industrialblock {
+        display: flex;
+        flex-direction: row;
+    }
+    .button-new {
+    width: 69px;
+}
+    .all-sector li {
+    width: 49%;
+}
+
+    .in-banner {
+        margin-top: 62px;
+    }
+
+    .navbar-brand {
+    display: inline-block;
+    width: 13%;
+}
+    .announcement h3 {
+    font-size: 22px;
+    background: #f69a03;
+    padding: 16px 17px;
+}
+    .navbar {
+    padding: 0.3rem 0rem !important;
+}
+     .navbar-brand img {
+    float: left;
+    width: 61%;
+}
+a.nav-link {
+    color: #1d0378 !important;
+    text-transform: uppercase;
+    font-weight: 500;
+    /* margin: 0px 26px; */
+    font-size: 12px;
+    padding: 9px 3px !important;
+}
+    .contentarea {
+        background-color: #fbfbfb;
+        padding: 11px;
+    }
+
+    .service {
+        margin-bottom: 127px;
+    }
+
+    .news-sec:before {
+    left: 175px;
+    top: -10px;
+}
+
+    .news-sec:after {
+    right: 171px;
+    bottom: 103px;
+}
+
+    .flip-box-front p {
+        font-size: 26px;
+    }
+
+    .linkstitle1 {
+    margin-bottom: 94px;
+}
+
+    section.aboutUs p {
+    font-size: 18px;
+    text-align: justify;
+}
+
+  
+    .impo-information li {
+    width: 48%;
+    margin-left: 16px;
+}
+
+    .carousel-inner {
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .b-lead h4 {
+        display: none;
+    }
+
+    .b-lead p {
+        display: none;
+    }
+
+    .b-lead {
+        padding: 6px;
+        width: 160px;
+        height: 162px;
+    }
+
+    .tbox {
+        text-align: center;
+    }
+
+        .tbox span {
+            text-align: center;
+        }
+
+   .b-lead-r {
+    top: 31%;
+    left: 6%;
+}
+
+   .feat_section .feature_box {
+    width: 33%;
+}
+   .twitter-title {
+    margin-top: -55px;
+    background: #1d9bf0;
+    color: #fff;
+    padding: 6px 8px;
+    /* margin: 0px; */
+}
+    section.social-media-sec .col-lg-4 {
+        margin-bottom: 36px !IMPORTANT;
+    }
+
+    .tbox {
+        margin: 20px 0px;
+    }
+
+    #myVideo {
+        height: 450px;
+    }
+
+   a.govt-logoarea h5 {
+    font-size: 20px;
+}
+
+    footer a {
+          font-size: 16px;
+        color: #ffffff;
+    }
+
+    h4.f-title {
+        font-size: 30px;
+    }
+
+    .feat_section .panel-default {
+        margin: 20px auto;
+    }
+
+    .investorguide-btm img {
+        margin-bottom: 30px;
+    }
+
+    .all-sector li a {
+    font-size: 20px;
+}
+
+   .card-header.secondry-heading {
+    font-size: 18px;
+}
+
+    li.news-item tr td {
+    font-size: 16px;
+    display: block;
+    padding: 17px 15px;
+}
+
+    .loginlogo {
+        width: 54%;
+    }
+    #gallery .gallery-inner3 .titels-3 {
+        margin-top: -117px;
+    width: 79.3%;
+    font-size: 15px;
+    }
+    #aboutus-tabs .tabs-content{
+        width: 100%;
+        align-items: stretch;
+}
+#aboutus-tabs .tabs-btn{
+     width: 100%;
+       align-items: stretch;
+
+}
+ #polices-tabs .tabs-content{
+        width: 100%;
+        align-items: stretch;
+}
+#polices-tabs .tabs-btn{
+     width: 100%;
+       align-items: stretch;
+
+}
+.head-group .bg-head-office-info {
+    margin-left:0px;
+        margin-top: 20px;
+ width: 667px;
+    }
+.mmps{
+          width: 624px;
+    
+ }
+
+.leader3 .text-group22 input{
+      
+    width: 100%;
+}
+
+.tables-sec table thead .pdf-selection3 {
+    width: 70%;
+}.tables-sec table .calendar {
+   
+  width:100%;
+    text-align: center;
+     margin-right: 0px;
+  
+}.tables-sec .table td button {
+    padding: 8px 22px;
+  
+}
+ .why-upsida2 .brand-upsida {
+        box-shadow: 2px 2px 5px 1px #ccc;
+        align-items: stretch;
+        height: auto;
+    }
+}
+@media (max-width: 1325px) {
+
+      .button-new {
+    width: 151px;
+}
+   .web-admin {
+       width: 95px;
+    background-color: #000c4e;
+    color: white;
+    margin-right: 8px;
+}
+    .web-mail {
+    width: 86px;
+    background-color: #14946b;
+    color: white;
+    margin-right: 8px;
+}
+    .why-upsida2 .brand-upsida {
+        box-shadow: 2px 2px 5px 1px #ccc;
+        align-items: stretch;
+        height: auto;
+    }
+ /*.pdf-reaport {
+    width: 100%;
+    height: auto;
+}*/
+    .Industrialblock {
+        display: flex;
+        flex-direction: row;
+    }
+    .button-new {
+    width: 69px;
+}
+    .all-sector li {
+    width: 49%;
+}
+
+    .in-banner {
+        margin-top: 62px;
+    }
+
+    .navbar-brand {
+    display: inline-block;
+    width: 13%;
+}
+    .announcement h3 {
+    font-size: 22px;
+    background: #f69a03;
+    padding: 16px 17px;
+}
+    .navbar {
+    padding: 0.3rem 0rem !important;
+}
+     .navbar-brand img {
+    float: left;
+    width: 61%;
+}
+a.nav-link {
+    color: #1d0378 !important;
+    text-transform: uppercase;
+    font-weight: 500;
+    /* margin: 0px 26px; */
+    font-size: 12px;
+    padding: 9px 3px !important;
+}
+    .contentarea {
+        background-color: #fbfbfb;
+        padding: 11px;
+    }
+
+    .service {
+        margin-bottom: 127px;
+    }
+
+    .news-sec:before {
+    left: 175px;
+    top: -10px;
+}
+
+    .news-sec:after {
+    right: 171px;
+    bottom: 103px;
+}
+
+    .flip-box-front p {
+        font-size: 26px;
+    }
+
+    .linkstitle1 {
+    margin-bottom: 94px;
+}
+
+    section.aboutUs p {
+    font-size: 18px;
+    text-align: justify;
+}
+
+  
+    .impo-information li {
+    width: 48%;
+    margin-left: 16px;
+}
+
+    .carousel-inner {
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .b-lead h4 {
+        display: none;
+    }
+
+    .b-lead p {
+        display: none;
+    }
+
+    .b-lead {
+        padding: 6px;
+        width: 160px;
+        height: 162px;
+    }
+
+    .tbox {
+        text-align: center;
+    }
+
+        .tbox span {
+            text-align: center;
+        }
+
+   .b-lead-r {
+    top: 31%;
+    left: 6%;
+}
+
+   .feat_section .feature_box {
+    width: 33%;
+}
+   .twitter-title {
+    margin-top: -55px;
+    background: #1d9bf0;
+    color: #fff;
+    padding: 6px 8px;
+    /* margin: 0px; */
+}
+    section.social-media-sec .col-lg-4 {
+        margin-bottom: 36px !IMPORTANT;
+    }
+
+    .tbox {
+        margin: 20px 0px;
+    }
+
+    #myVideo {
+        height: 450px;
+    }
+
+   a.govt-logoarea h5 {
+    font-size: 20px;
+}
+
+    footer a {
+          font-size: 16px;
+        color: #ffffff;
+    }
+
+    h4.f-title {
+        font-size: 30px;
+    }
+
+    .feat_section .panel-default {
+        margin: 20px auto;
+    }
+
+    .investorguide-btm img {
+        margin-bottom: 30px;
+    }
+
+    .all-sector li a {
+    font-size: 20px;
+}
+
+   .card-header.secondry-heading {
+    font-size: 18px;
+}
+
+    li.news-item tr td {
+    font-size: 16px;
+    display: block;
+    padding: 17px 15px;
+}
+
+    .loginlogo {
+        width: 54%;
+    }
+    #gallery .gallery-inner3 .titels-3 {
+        margin-top: -117px;
+    width: 79.3%;
+    font-size: 15px;
+    }
+    #aboutus-tabs .tabs-content{
+        width: 100%;
+        align-items: stretch;
+}
+#aboutus-tabs .tabs-btn{
+     width: 100%;
+       align-items: stretch;
+
+}
+ #polices-tabs .tabs-content{
+        width: 100%;
+        align-items: stretch;
+}
+#polices-tabs .tabs-btn{
+     width: 100%;
+       align-items: stretch;
+
+}
+.head-group .bg-head-office-info {
+    margin-left:0px;
+        margin-top: 20px;
+ width: 667px;
+    }
+.mmps{
+          width: 624px;
+    
+ }
+
+.leader3 .text-group22 input{
+      
+    width: 100%;
+}
+
+.tables-sec table thead .pdf-selection3 {
+    width: 70%;
+}.tables-sec table .calendar {
+   
+  width:100%;
+    text-align: center;
+     margin-right: 0px;
+  
+}.tables-sec .table td button {
+    padding: 8px 22px;
+  
+}
+ .why-upsida2 .brand-upsida {
+        box-shadow: 2px 2px 5px 1px #ccc;
+        align-items: stretch;
+        height: auto;
+    }
+}
+@media (max-width: 1320px) {
+
+      .button-new {
+    width: 151px;
+}
+   .web-admin {
+     width: 95px;
+    background-color: #000c4e;
+    color: white;
+    margin-right: 8px;
+}
+    .web-mail {
+    width: 86px;
+    background-color: #14946b;
+    color: white;
+    margin-right: 8px;
+}
+    .why-upsida2 .brand-upsida {
+        box-shadow: 2px 2px 5px 1px #ccc;
+        align-items: stretch;
+        height: auto;
+    }
+ /*.pdf-reaport {
+    width: 100%;
+    height: auto;
+}*/
+    .Industrialblock {
+        display: flex;
+        flex-direction: row;
+    }
+    .button-new {
+    width: 69px;
+}
+    .all-sector li {
+    width: 49%;
+}
+
+    .in-banner {
+        margin-top: 62px;
+    }
+
+    .navbar-brand {
+    display: inline-block;
+    width: 13%;
+}
+    .announcement h3 {
+    font-size: 22px;
+    background: #f69a03;
+    padding: 16px 17px;
+}
+    .navbar {
+    padding: 0.3rem 0rem !important;
+}
+     .navbar-brand img {
+    float: left;
+    width: 61%;
+}
+a.nav-link {
+    color: #1d0378 !important;
+    text-transform: uppercase;
+    font-weight: 500;
+    /* margin: 0px 26px; */
+    font-size: 12px;
+    padding: 9px 3px !important;
+}
+    .contentarea {
+        background-color: #fbfbfb;
+        padding: 11px;
+    }
+
+    .service {
+        margin-bottom: 127px;
+    }
+
+    .news-sec:before {
+    left: 175px;
+    top: -10px;
+}
+
+    .news-sec:after {
+    right: 171px;
+    bottom: 103px;
+}
+
+    .flip-box-front p {
+        font-size: 26px;
+    }
+
+    .linkstitle1 {
+    margin-bottom: 94px;
+}
+
+    section.aboutUs p {
+    font-size: 18px;
+    text-align: justify;
+}
+
+  
+    .impo-information li {
+    width: 48%;
+    margin-left: 16px;
+}
+
+    .carousel-inner {
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .b-lead h4 {
+        display: none;
+    }
+
+    .b-lead p {
+        display: none;
+    }
+
+    .b-lead {
+        padding: 6px;
+        width: 160px;
+        height: 162px;
+    }
+
+    .tbox {
+        text-align: center;
+    }
+
+        .tbox span {
+            text-align: center;
+        }
+
+   .b-lead-r {
+    top: 31%;
+    left: 6%;
+}
+
+   .feat_section .feature_box {
+    width: 33%;
+}
+   .twitter-title {
+    margin-top: -55px;
+    background: #1d9bf0;
+    color: #fff;
+    padding: 6px 8px;
+    /* margin: 0px; */
+}
+    section.social-media-sec .col-lg-4 {
+        margin-bottom: 36px !IMPORTANT;
+    }
+
+    .tbox {
+        margin: 20px 0px;
+    }
+
+    #myVideo {
+        height: 450px;
+    }
+
+   a.govt-logoarea h5 {
+    font-size: 20px;
+}
+
+    footer a {
+          font-size: 16px;
+        color: #ffffff;
+    }
+
+    h4.f-title {
+        font-size: 30px;
+    }
+
+    .feat_section .panel-default {
+        margin: 20px auto;
+    }
+
+    .investorguide-btm img {
+        margin-bottom: 30px;
+    }
+
+    .all-sector li a {
+    font-size: 20px;
+}
+
+   .card-header.secondry-heading {
+    font-size: 18px;
+}
+
+    li.news-item tr td {
+    font-size: 16px;
+    display: block;
+    padding: 17px 15px;
+}
+
+    .loginlogo {
+        width: 54%;
+    }
+    #gallery .gallery-inner3 .titels-3 {
+        margin-top: -117px;
+    width: 79.3%;
+    font-size: 15px;
+    }
+    #aboutus-tabs .tabs-content{
+        width: 100%;
+        align-items: stretch;
+}
+#aboutus-tabs .tabs-btn{
+     width: 100%;
+       align-items: stretch;
+
+}
+ #polices-tabs .tabs-content{
+        width: 100%;
+        align-items: stretch;
+}
+#polices-tabs .tabs-btn{
+     width: 100%;
+       align-items: stretch;
+
+}
+.head-group .bg-head-office-info {
+    margin-left:0px;
+        margin-top: 20px;
+ width: 667px;
+    }
+.mmps{
+          width: 624px;
+    
+ }
+
+.leader3 .text-group22 input{
+      
+    width: 100%;
+}
+
+.tables-sec table thead .pdf-selection3 {
+    width: 70%;
+}.tables-sec table .calendar {
+   
+  width:100%;
+    text-align: center;
+     margin-right: 0px;
+  
+}.tables-sec .table td button {
+    padding: 8px 22px;
+  
+}
+ .why-upsida2 .brand-upsida {
+        box-shadow: 2px 2px 5px 1px #ccc;
+        align-items: stretch;
+        height: auto;
+    }
+}
+@media (max-width: 1300px) {
+
+      .button-new {
+    width: 151px;
+}
+   .web-admin {
+       width: 100px;
+    background-color: #000c4e;
+    color: white;
+    margin-right: 8px;
+}
+    .web-mail {
+    width: 86px;
+    background-color: #14946b;
+    color: white;
+    margin-right: 8px;
+}
+    .why-upsida2 .brand-upsida {
+        box-shadow: 2px 2px 5px 1px #ccc;
+        align-items: stretch;
+        height: auto;
+    }
+ /*.pdf-reaport {
+    width: 100%;
+    height: auto;
+}*/
+    .Industrialblock {
+        display: flex;
+        flex-direction: row;
+    }
+    .button-new {
+    width: 69px;
+}
+    .all-sector li {
+    width: 49%;
+}
+
+    .in-banner {
+        margin-top: 62px;
+    }
+
+    .navbar-brand {
+    display: inline-block;
+    width: 13%;
+}
+    .announcement h3 {
+    font-size: 22px;
+    background: #f69a03;
+    padding: 16px 17px;
+}
+    .navbar {
+    padding: 0.3rem 0rem !important;
+}
+     .navbar-brand img {
+    float: left;
+    width: 61%;
+}
+a.nav-link {
+    color: #1d0378 !important;
+    text-transform: uppercase;
+    font-weight: 500;
+    /* margin: 0px 26px; */
+    font-size: 12px;
+    padding: 9px 7px !important;
+}
+    .contentarea {
+        background-color: #fbfbfb;
+        padding: 11px;
+    }
+
+    .service {
+        margin-bottom: 127px;
+    }
+
+    .news-sec:before {
+    left: 175px;
+    top: -10px;
+}
+
+    .news-sec:after {
+    right: 171px;
+    bottom: 103px;
+}
+
+    .flip-box-front p {
+        font-size: 26px;
+    }
+
+    .linkstitle1 {
+    margin-bottom: 94px;
+}
+
+    section.aboutUs p {
+    font-size: 18px;
+    text-align: justify;
+}
+
+    .logo {
+        background-image: url("../images/logo-2.jpg");
+        display: none;
+    }
+
+    .impo-information li {
+    width: 48%;
+    margin-left: 16px;
+}
+
+    .carousel-inner {
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .b-lead h4 {
+        display: none;
+    }
+
+    .b-lead p {
+        display: none;
+    }
+
+    .b-lead {
+        padding: 6px;
+        width: 160px;
+        height: 162px;
+    }
+
+    .tbox {
+        text-align: center;
+    }
+
+        .tbox span {
+            text-align: center;
+        }
+
+   .b-lead-r {
+    top: 31%;
+    left: 6%;
+}
+
+   .feat_section .feature_box {
+    width: 33%;
+}
+   .twitter-title {
+    margin-top: -55px;
+    background: #1d9bf0;
+    color: #fff;
+    padding: 6px 8px;
+    /* margin: 0px; */
+}
+    section.social-media-sec .col-lg-4 {
+        margin-bottom: 36px !IMPORTANT;
+    }
+
+    .tbox {
+        margin: 20px 0px;
+    }
+
+    #myVideo {
+        height: 450px;
+    }
+
+   a.govt-logoarea h5 {
+    font-size: 20px;
+}
+
+    footer a {
+          font-size: 16px;
+        color: #ffffff;
+    }
+
+    h4.f-title {
+        font-size: 30px;
+    }
+
+    .feat_section .panel-default {
+        margin: 20px auto;
+    }
+
+    .investorguide-btm img {
+        margin-bottom: 30px;
+    }
+
+    .all-sector li a {
+    font-size: 20px;
+}
+
+   .card-header.secondry-heading {
+    font-size: 18px;
+}
+
+    li.news-item tr td {
+    font-size: 16px;
+    display: block;
+    padding: 17px 15px;
+}
+
+    .loginlogo {
+        width: 54%;
+    }
+    #gallery .gallery-inner3 .titels-3 {
+        margin-top: -117px;
+    width: 79.3%;
+    font-size: 15px;
+    }
+    #aboutus-tabs .tabs-content{
+        width: 100%;
+        align-items: stretch;
+}
+#aboutus-tabs .tabs-btn{
+     width: 100%;
+       align-items: stretch;
+
+}
+ #polices-tabs .tabs-content{
+        width: 100%;
+        align-items: stretch;
+}
+#polices-tabs .tabs-btn{
+     width: 100%;
+       align-items: stretch;
+
+}
+.head-group .bg-head-office-info {
+    margin-left:0px;
+        margin-top: 20px;
+ width: 667px;
+    }
+.mmps{
+          width: 624px;
+    
+ }
+
+.leader3 .text-group22 input{
+      
+    width: 100%;
+}
+
+.tables-sec table thead .pdf-selection3 {
+    width: 70%;
+}.tables-sec table .calendar {
+   
+  width:100%;
+    text-align: center;
+     margin-right: 0px;
+  
+}.tables-sec .table td button {
+    padding: 8px 22px;
+  
+}
+ .why-upsida2 .brand-upsida {
+        box-shadow: 2px 2px 5px 1px #ccc;
+        align-items: stretch;
+        height: auto;
+    }
+}
+
+@media (max-width: 1069px) {
+      .button-new {
+    width: 151px;
+}
+   .web-admin {
+    width: 86px;
+    background-color: #000c4e;
+    color: white;
+    margin-right: 8px;
+}
+    .web-mail {
+    width: 86px;
+    background-color: #14946b;
+    color: white;
+    margin-right: 8px;
+}
+    .why-upsida2 .brand-upsida {
+        box-shadow: 2px 2px 5px 1px #ccc;
+        align-items: stretch;
+        height: auto;
+    }
+ /*.pdf-reaport {
+    width: 100%;
+    height: auto;
+}*/
+    .Industrialblock {
+        display: flex;
+        flex-direction: row;
+    }
+    .button-new {
+    width: 69px;
+}
+    .all-sector li {
+    width: 49%;
+}
+
+    .in-banner {
+        margin-top: 62px;
+    }
+
+    .navbar-brand {
+    display: inline-block;
+    width: 13%;
+}
+    .announcement h3 {
+    font-size: 22px;
+    background: #f69a03;
+    padding: 16px 17px;
+}
+    .navbar {
+    padding: 0.3rem 0rem !important;
+}
+     .navbar-brand img {
+    float: left;
+    width: 61%;
+}
+a.nav-link {
+    color: #1d0378 !important;
+    text-transform: uppercase;
+    font-weight: 500;
+    /* margin: 0px 26px; */
+    font-size: 12px;
+    padding: 9px 7px !important;
+}
+    .contentarea {
+        background-color: #fbfbfb;
+        padding: 11px;
+    }
+
+    .service {
+        margin-bottom: 127px;
+    }
+
+    .news-sec:before {
+    left: 175px;
+    top: -10px;
+}
+
+    .news-sec:after {
+    right: 171px;
+    bottom: 103px;
+}
+
+    .flip-box-front p {
+        font-size: 26px;
+    }
+
+    .linkstitle1 {
+    margin-bottom: 94px;
+}
+
+    section.aboutUs p {
+    font-size: 18px;
+    text-align: justify;
+}
+
+    .logo {
+        background-image: url("../images/logo-2.jpg");
+        display: none;
+    }
+
+    .impo-information li {
+    width: 48%;
+    margin-left: 16px;
+}
+
+    .carousel-inner {
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .b-lead h4 {
+        display: none;
+    }
+
+    .b-lead p {
+        display: none;
+    }
+
+    .b-lead {
+        padding: 6px;
+        width: 160px;
+        height: 162px;
+    }
+
+    .tbox {
+        text-align: center;
+    }
+
+        .tbox span {
+            text-align: center;
+        }
+
+   .b-lead-r {
+    top: 31%;
+    left: 6%;
+}
+
+   .feat_section .feature_box {
+    width: 33%;
+}
+   .twitter-title {
+    margin-top: -55px;
+    background: #1d9bf0;
+    color: #fff;
+    padding: 6px 8px;
+    /* margin: 0px; */
+}
+    section.social-media-sec .col-lg-4 {
+        margin-bottom: 36px !IMPORTANT;
+    }
+
+    .tbox {
+        margin: 20px 0px;
+    }
+
+    #myVideo {
+        height: 247px;
+    }
+
+   a.govt-logoarea h5 {
+    font-size: 20px;
+}
+
+    footer a {
+          font-size: 16px;
+        color: #ffffff;
+    }
+
+    h4.f-title {
+        font-size: 30px;
+    }
+
+    .feat_section .panel-default {
+        margin: 20px auto;
+    }
+
+    .investorguide-btm img {
+        margin-bottom: 30px;
+    }
+
+    .all-sector li a {
+    font-size: 20px;
+}
+
+   .card-header.secondry-heading {
+    font-size: 18px;
+}
+
+    li.news-item tr td {
+    font-size: 16px;
+    display: block;
+    padding: 17px 15px;
+}
+
+    .loginlogo {
+        width: 54%;
+    }
+    #gallery .gallery-inner3 .titels-3 {
+        margin-top: -117px;
+    width: 79.3%;
+    font-size: 15px;
+    }
+    #aboutus-tabs .tabs-content{
+        width: 100%;
+        align-items: stretch;
+}
+#aboutus-tabs .tabs-btn{
+     width: 100%;
+       align-items: stretch;
+
+}
+ #polices-tabs .tabs-content{
+        width: 100%;
+        align-items: stretch;
+}
+#polices-tabs .tabs-btn{
+     width: 100%;
+       align-items: stretch;
+
+}
+.head-group .bg-head-office-info {
+    margin-left:0px;
+        margin-top: 20px;
+ width: 667px;
+    }
+.mmps{
+          width: 624px;
+    
+ }
+
+.leader3 .text-group22 input{
+      
+    width: 100%;
+}
+
+.tables-sec table thead .pdf-selection3 {
+    width: 70%;
+}.tables-sec table .calendar {
+   
+  width:100%;
+    text-align: center;
+     margin-right: 0px;
+  
+}.tables-sec .table td button {
+    padding: 8px 22px;
+  
+}
+ .why-upsida2 .brand-upsida {
+        box-shadow: 2px 2px 5px 1px #ccc;
+        align-items: stretch;
+        height: auto;
+    }
+}
+
+
+@media (max-width: 912px) {
+      .button-new {
+    width: 151px;
+}
+    .web-admin {
+    width: 151px;
+    background-color: #000c4e;
+    color: white;
+    margin-right: 8px;
+}
+    .web-mail {
+    width: 151px;
+    background-color: #14946b;
+    color: white;
+    margin-right: 8px;
+}
+    .why-upsida2 .brand-upsida {
+        box-shadow: 2px 2px 5px 1px #ccc;
+        align-items: stretch;
+        height: auto;
+    }
+ /*.pdf-reaport {
+    width: 100%;
+    height: auto;
+}*/
+    .Industrialblock {
+        display: flex;
+        flex-direction: row;
+    }
+    /*.button-new {
+       width: 697px;
+}*/
+    .all-sector li {
+    width: 49%;
+}
+
+    .in-banner {
+        margin-top: 62px;
+    }
+
+    .navbar-brand {
+        display: inline-block;
+        width: 85%;
+    }
+
+       .navbar-brand img {
+    float: left;
+    width: 20%;
+}
+
+    .contentarea {
+        background-color: #fbfbfb;
+        padding: 11px;
+    }
+
+    .service {
+        margin-bottom: 127px;
+    }
+
+    .news-sec:before {
+    left: 175px;
+    top: -10px;
+}
+
+    .news-sec:after {
+    right: 171px;
+    bottom: -10px;
+}
+
+    .flip-box-front p {
+        font-size: 26px;
+    }
+
+    .linkstitle1 {
+    margin-bottom: 94px;
+}
+
+    section.aboutUs p {
+    font-size: 18px;
+    text-align: justify;
+}
+
+    .logo {
+        background-image: url("../images/logo-2.jpg");
+        display: none;
+    }
+
+    .impo-information li {
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .carousel-inner {
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .b-lead h4 {
+        display: none;
+    }
+
+    .b-lead p {
+        display: none;
+    }
+
+    .b-lead {
+        padding: 6px;
+        width: 160px;
+        height: 162px;
+    }
+
+    .tbox {
+        text-align: center;
+    }
+
+        .tbox span {
+            text-align: center;
+        }
+
+   .b-lead-r {
+    top: 31%;
+    left: 6%;
+}
+
+   .feat_section .feature_box {
+    width: 33%;
+}
+   .twitter-title {
+    margin-top: -55px;
+    background: #1d9bf0;
+    color: #fff;
+    padding: 6px 8px;
+    /* margin: 0px; */
+}
+    section.social-media-sec .col-lg-4 {
+        margin-bottom: 36px !IMPORTANT;
+    }
+
+    .tbox {
+        margin: 20px 0px;
+    }
+
+    #myVideo {
+        height: 247px;
+    }
+
+   a.govt-logoarea h5 {
+    font-size: 20px;
+}
+
+    footer a {
+          font-size: 16px;
+        color: #ffffff;
+    }
+
+    h4.f-title {
+        font-size: 30px;
+    }
+
+    .feat_section .panel-default {
+        margin: 20px auto;
+    }
+
+    .investorguide-btm img {
+        margin-bottom: 30px;
+    }
+
+    .all-sector li a {
+    font-size: 20px;
+}
+
+   .card-header.secondry-heading {
+    font-size: 18px;
+}
+
+    li.news-item tr td {
+    font-size: 16px;
+    display: block;
+    padding: 17px 15px;
+}
+
+    .loginlogo {
+        width: 54%;
+    }
+    #gallery .gallery-inner3 .titels-3 {
+        margin-top: -117px;
+    width: 79.3%;
+    font-size: 15px;
+    }
+    #aboutus-tabs .tabs-content{
+        width: 100%;
+        align-items: stretch;
+}
+#aboutus-tabs .tabs-btn{
+     width: 100%;
+       align-items: stretch;
+
+}
+#polices-tabs .tabs-content{
+        width: 100%;
+        align-items: stretch;
+}
+#polices-tabs .tabs-btn{
+     width: 100%;
+       align-items: stretch;
+
+}
+.head-group .bg-head-office-info {
+    margin-left:0px;
+        margin-top: 20px;
+ width: 667px;
+    }
+.mmps{
+          width: 624px;
+    
+ }
+
+.leader3 .text-group22 input{
+      
+    width: 100%;
+}
+
+.tables-sec table thead .pdf-selection3 {
+    width: 70%;
+}.tables-sec table .calendar {
+   
+  width:100%;
+    text-align: center;
+     margin-right: 0px;
+  
+}.tables-sec .table td button {
+    padding: 8px 22px;
+  
+}
+ .why-upsida2 .brand-upsida {
+        box-shadow: 2px 2px 5px 1px #ccc;
+        align-items: stretch;
+        height: auto;
+    }
+}
+
+
+/* Collapse oversized image and pulled images after iPad breakpoint. */
+
+@media (max-width: 768px) {
+    /*.pdf-reaport {
+    width: 100%;
+    height: auto;
+}*/
+    .Industrialblock {
+        display: flex;
+        flex-direction: column;
+    }
+    .button-new {
+    width: 151px;
+}
+    .web-admin {
+    width: 151px;
+    background-color: #000c4e;
+    color: white;
+    margin-right: 8px;
+}
+    .web-mail {
+    width: 151px;
+    background-color: #14946b;
+    color: white;
+    margin-right: 8px;
+}
+    .all-sector li {
+    width: 49%;
+}
+
+    .in-banner {
+        margin-top: 62px;
+    }
+
+    .navbar-brand {
+        display: inline-block;
+        width: 85%;
+    }
+
+       .navbar-brand img {
+    float: left;
+    width: 20%;
+}
+
+    .contentarea {
+        background-color: #fbfbfb;
+        padding: 11px;
+    }
+
+    .service {
+        margin-bottom: 127px;
+    }
+
+    .news-sec:before {
+    left: 175px;
+    top: -10px;
+}
+
+    .news-sec:after {
+    right: 171px;
+    bottom: -10px;
+}
+
+    .flip-box-front p {
+        font-size: 26px;
+    }
+
+    .linkstitle1 {
+    margin-bottom: 74px;
+}
+
+    section.aboutUs p {
+    font-size: 18px;
+    text-align: justify;
+}
+
+    .logo {
+        background-image: url("../images/logo-2.jpg");
+        display: none;
+    }
+
+    .impo-information li {
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .carousel-inner {
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .b-lead h4 {
+        display: none;
+    }
+
+    .b-lead p {
+        display: none;
+    }
+
+    .b-lead {
+        padding: 6px;
+        width: 160px;
+        height: 162px;
+    }
+
+    .tbox {
+        text-align: center;
+    }
+
+        .tbox span {
+            text-align: center;
+        }
+
+   .b-lead-r {
+    top: 31%;
+    left: 6%;
+}
+
+   .feat_section .feature_box {
+    width: 50%;
+}
+   .twitter-title {
+    margin-top: -55px;
+    background: #1d9bf0;
+    color: #fff;
+    padding: 6px 8px;
+    /* margin: 0px; */
+}
+    section.social-media-sec .col-lg-4 {
+        margin-bottom: 36px !IMPORTANT;
+    }
+
+    .tbox {
+        margin: 20px 0px;
+    }
+
+    #myVideo {
+        height: 247px;
+    }
+
+   a.govt-logoarea h5 {
+    font-size: 20px;
+}
+
+    footer a {
+          font-size: 16px;
+        color: #ffffff;
+    }
+
+    h4.f-title {
+        font-size: 30px;
+    }
+
+    .feat_section .panel-default {
+        margin: 20px auto;
+    }
+
+    .investorguide-btm img {
+        margin-bottom: 30px;
+    }
+
+    .all-sector li a {
+    font-size: 20px;
+}
+
+   .card-header.secondry-heading {
+    font-size: 18px;
+}
+
+    li.news-item tr td {
+    font-size: 16px;
+    display: block;
+    padding: 17px 15px;
+}
+
+    .loginlogo {
+        width: 54%;
+    }
+    #gallery .gallery-inner3 .titels-3 {
+        margin-top: -117px;
+    width: 79.3%;
+    font-size: 15px;
+    }
+    #aboutus-tabs .tabs-content{
+        width: 100%;
+        align-items: stretch;
+}
+#aboutus-tabs .tabs-btn{
+     width: 100%;
+       align-items: stretch;
+
+}
+ #polices-tabs .tabs-content{
+        width: 100%;
+        align-items: stretch;
+}
+#polices-tabs .tabs-btn{
+     width: 100%;
+       align-items: stretch;
+
+}
+.head-group .bg-head-office-info {
+    margin-left:0px;
+        margin-top: 20px;
+ width: 667px;
+    }
+.mmps{
+          width: 624px;
+    
+ }
+
+.leader3 .text-group22 input{
+      
+    width: 100%;
+}
+
+.tables-sec table thead .pdf-selection3 {
+    width: 70%;
+}.tables-sec table .calendar {
+   
+  width:100%;
+    text-align: center;
+     margin-right: 0px;
+  
+}.tables-sec .table td button {
+    padding: 8px 22px;
+  
+}
+ .why-upsida2 .brand-upsida {
+        box-shadow: 2px 2px 5px 1px #ccc;
+        align-items: stretch;
+        height: auto;
+    }
+}
+
+@media (max-width: 712px) {
+    .in-banner {
+        width: 100%;
+        top: 50px;
+       min-height: 230px;
+    }
+     .in-banner1 {
+        width: 100%;
+        top: 50px;
+       min-height: 230px;
+    }
+     .in-banner2 {
+        width: 100%;
+        top: 50px;
+        min-height: 230px;
+    }
+    .in-banner3 {
+        width: 100%;
+        top: 50px;
+       min-height: 230px;
+    }
+    .in-banner4 {
+        width: 100%;
+        top: 50px;
+       min-height: 230px;
+    }
+    .in-banner5 {
+        width: 100%;
+        top: 50px;
+       min-height: 230px;
+    }
+    .in-banner6 {
+        width: 100%;
+        top: 50px;
+        min-height: 230px;
+    }
+    .in-banner7 {
+        width: 100%;
+        top: 50px;
+      min-height: 230px;
+    }
+    .in-banner8 {
+        width: 100%;
+        top: 50px;
+        min-height: 230px;
+    }
+    .in-banner9 {
+        width: 100%;
+        top: 50px;
+        min-height: 230px;
+    }
+    .in-banner10 {
+        width: 100%;
+        top: 50px;
+        min-height: 230px;
+    }
+    .in-banner11 {
+        width: 100%;
+        top: 50px;
+     min-height: 230px;
+    }
+    .in-banner12 {
+        width: 100%;
+        top: 50px;
+       min-height: 230px;
+    }
+    .in-banner13 {
+        width: 100%;
+        top: 50px;
+       min-height: 230px;
+    }
+    .in-banner14 {
+        width: 100%;
+        top: 50px;
+       min-height: 230px;
+    }
+    .in-banner15 {
+        width: 100%;
+        top: 50px;
+        min-height: 230px;
+    }
+    .in-banner16 {
+        width: 100%;
+        top: 50px;
+       min-height: 230px;
+    }
+    .in-banner17 {
+        width: 100%;
+        top: 50px;
+        min-height: 230px;
+    }
+    .in-banner18 {
+        width: 100%;
+        top: 50px;
+      min-height: 230px;
+    }
+    .in-banner19 {
+        width: 100%;
+        top: 50px;
+        min-height: 230px;
+    }
+    .in-banner20 {
+        width: 100%;
+        top: 50px;
+      min-height: 230px;
+    }
+    .in-banner21 {
+        width: 100%;
+        top: 50px;
+       min-height: 230px;
+    }
+    .in-banner22 {
+        width: 100%;
+        top: 50px;
+        min-height: 230px;
+    }
+    .in-banner23 {
+        width: 100%;
+        top: 50px;
+       min-height: 230px;
+    }
+    .in-banner24 {
+        width: 100%;
+        top: 50px;
+        min-height: 230px;
+    }
+    .in-banner25 {
+        width: 100%;
+        top: 50px;
+       min-height: 230px;
+    }
+    .in-banner26 {
+        width: 100%;
+        top: 50px;
+        min-height: 230px;
+    }
+    .in-banner27 {
+        width: 100%;
+        top: 50px;
+        min-height: 230px;
+    }
+    .in-banner28 {
+        width: 100%;
+        top: 50px;
+        min-height: 230px;
+    }
+    .in-banner29 {
+        width: 100%;
+        top: 50px;
+      min-height: 230px;
+    }
+    .in-banner30 {
+        width: 100%;
+        top: 50px;
+       min-height: 230px;
+    }
+    .in-banner31 {
+        width: 100%;
+        top: 50px;
+       min-height: 230px;
+    }
+    .in-banner32 {
+        width: 100%;
+        top: 50px;
+        min-height: 230px;
+    }
+    .in-banner33 {
+        width: 100%;
+        top: 50px;
+       min-height: 230px;
+    }
+    .in-banner34 {
+        width: 100%;
+        top: 50px;
+     min-height: 230px;
+    }
+    .in-banner35 {
+        width: 100%;
+        top: 50px;
+       min-height: 230px;
+    }
+    .in-banner36 {
+        width: 100%;
+        top: 50px;
+      min-height: 230px;
+    }
+    .in-banner37 {
+        width: 100%;
+        top: 50px;
+        min-height: 230px;
+    }
+    .in-banner38 {
+        width: 100%;
+        top: 50px;
+       min-height: 230px;
+    }
+    .in-banner39 {
+        width: 100%;
+        top: 50px;
+        min-height: 230px;
+    }.in-banner40 {
+        width: 100%;
+        top: 50px;
+       min-height: 230px;
+    }.in-banner41 {
+        width: 100%;
+        top: 50px;
+       min-height: 230px;
+    }
+     .in-banner42 {
+        width: 100%;
+        top: 50px;
+       min-height: 230px;
+    }
+ .in-banner43 {
+        width: 100%;
+        top: 50px;
+       min-height: 230px;
+    }
+        .inheading {
+   
+    top: -99px;
+    
+}
+    .linkstitle1 {
+    margin-bottom: 93px;
+}
+   
+    /*.pdf-reaport {
+    width: 100%;
+    height: auto;
+}*/
+    .Industrialblock {
+        display: flex;
+        flex-direction: column;
+    }
+    .button-new {
+    width: 151px;
+}
+    .web-admin {
+    width: 151px;
+    background-color: #000c4e;
+    color: white;
+    margin-right: 8px;
+}
+    .web-mail {
+    width: 151px;
+    background-color: #14946b;
+    color: white;
+    margin-right: 8px;
+}
+    .all-sector li {
+    width: 49%;
+}
+
+    .in-banner {
+        margin-top: 62px;
+    }
+
+    .navbar-brand {
+        display: inline-block;
+        width: 85%;
+    }
+
+       .navbar-brand img {
+    float: left;
+    width: 20%;
+}
+
+    .contentarea {
+        background-color: #fbfbfb;
+        padding: 11px;
+    }
+    .service {
+    margin-bottom: 274px;
+}
+
+    .news-sec:before {
+    left: 175px;
+    top: -10px;
+}
+
+    .news-sec:after {
+    right: 171px;
+    bottom: -10px;
+}
+
+    .flip-box-front p {
+        font-size: 26px;
+    }
+
+   .linkstitle1 {
+      margin-bottom: 72px;
+}
+
+    section.aboutUs p {
+    font-size: 18px;
+    text-align: justify;
+}
+
+    .logo {
+        background-image: url("../images/logo-2.jpg");
+        display: none;
+    }
+
+    .impo-information li {
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .carousel-inner {
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .b-lead h4 {
+        display: none;
+    }
+
+    .b-lead p {
+        display: none;
+    }
+
+    .b-lead {
+        padding: 6px;
+        width: 160px;
+        height: 162px;
+    }
+
+    .tbox {
+        text-align: center;
+    }
+
+        .tbox span {
+            text-align: center;
+        }
+
+   .b-lead-r {
+    top: 31%;
+    left: 6%;
+}
+
+   .feat_section .feature_box {
+    width: 50%;
+}
+   .twitter-title {
+    margin-top: -55px;
+    background: #1d9bf0;
+    color: #fff;
+    padding: 6px 8px;
+    /* margin: 0px; */
+}
+    section.social-media-sec .col-lg-4 {
+        margin-bottom: 36px !IMPORTANT;
+    }
+
+    .tbox {
+        margin: 20px 0px;
+    }
+
+    #myVideo {
+        height: 247px;
+    }
+
+   a.govt-logoarea h5 {
+    font-size: 20px;
+}
+
+    footer a {
+          font-size: 16px;
+        color: #ffffff;
+    }
+
+    h4.f-title {
+        font-size: 30px;
+    }
+
+    .feat_section .panel-default {
+        margin: 20px auto;
+    }
+
+    .investorguide-btm img {
+        margin-bottom: 30px;
+    }
+
+    .all-sector li a {
+    font-size: 20px;
+}
+
+   .card-header.secondry-heading {
+    font-size: 18px;
+}
+
+    li.news-item tr td {
+    font-size: 16px;
+    display: block;
+    padding: 17px 15px;
+}
+
+    .loginlogo {
+        width: 54%;
+    }
+    #gallery .gallery-inner3 .titels-3 {
+        margin-top: -117px;
+    width: 79.3%;
+    font-size: 15px;
+    }
+    #aboutus-tabs .tabs-content{
+        width: 100%;
+        align-items: stretch;
+}
+#aboutus-tabs .tabs-btn{
+     width: 100%;
+       align-items: stretch;
+
+}
+#polices-tabs .tabs-content{
+        width: 100%;
+        align-items: stretch;
+}
+#polices-tabs .tabs-btn{
+     width: 100%;
+       align-items: stretch;
+
+}
+.head-group .bg-head-office-info {
+    margin-left:0px;
+        margin-top: 20px;
+ width: 667px;
+    }
+.mmps{
+          width: 624px;
+    
+ }
+
+.leader3 .text-group22 input{
+      
+    width: 100%;
+}
+
+.tables-sec table thead .pdf-selection3 {
+    width: 70%;
+}.tables-sec table .calendar {
+   
+  width:100%;
+    text-align: center;
+     margin-right: 0px;
+  
+}.tables-sec .table td button {
+    padding: 8px 22px;
+  
+}
+ .why-upsida2 .brand-upsida {
+        box-shadow: 2px 2px 5px 1px #ccc;
+        align-items: stretch;
+        height: auto;
+    }
+}
+
+
+
+@media (max-width: 643px) {
+	.notice-ui li.news-item {
+    width: 100%;
+    float: left;
+ 
+}
+
+    .in-banner {
+        width: 100%;
+        top: 50px;
+        min-height:220px;
+    }
+     .in-banner1 {
+        width: 100%;
+        top: 50px;
+       min-height:220px;
+    }
+     .in-banner2 {
+        width: 100%;
+        top: 50px;
+        min-height:220px;
+    }
+    .in-banner3 {
+        width: 100%;
+        top: 50px;
+        min-height:220px;
+    }
+    .in-banner4 {
+        width: 100%;
+        top: 50px;
+        min-height:220px;
+    }
+    .in-banner5 {
+        width: 100%;
+        top: 50px;
+        min-height:220px;
+    }
+    .in-banner6 {
+        width: 100%;
+        top: 50px;
+       min-height:220px;
+    }
+    .in-banner7 {
+        width: 100%;
+        top: 50px;
+       min-height:220px;
+    }
+    .in-banner8 {
+        width: 100%;
+        top: 50px;
+     min-height:220px;
+    }
+    .in-banner9 {
+        width: 100%;
+        top: 50px;
+      min-height:220px;
+    }
+    .in-banner10 {
+        width: 100%;
+        top: 50px;
+        min-height:220px;
+    }
+    .in-banner11 {
+        width: 100%;
+        top: 50px;
+        min-height:220px;
+    }
+    .in-banner12 {
+        width: 100%;
+        top: 50px;
+      min-height:220px;
+    }
+    .in-banner13 {
+        width: 100%;
+        top: 50px;
+      min-height:220px;
+    }
+    .in-banner14 {
+        width: 100%;
+        top: 50px;
+        min-height:220px;
+    }
+    .in-banner15 {
+        width: 100%;
+        top: 50px;
+       min-height:220px;
+    }
+    .in-banner16 {
+        width: 100%;
+        top: 50px;
+        min-height:220px;
+    }
+    .in-banner17 {
+        width: 100%;
+        top: 50px;
+      min-height:220px;
+    }
+    .in-banner18 {
+        width: 100%;
+        top: 50px;
+       min-height:220px;
+    }
+    .in-banner19 {
+        width: 100%;
+        top: 50px;
+       min-height:220px;
+    }
+    .in-banner20 {
+        width: 100%;
+        top: 50px;
+         min-height:220px;
+    }
+    .in-banner21 {
+        width: 100%;
+        top: 50px;
+       min-height:220px;
+    }
+    .in-banner22 {
+        width: 100%;
+        top: 50px;
+       min-height:220px;
+    }
+    .in-banner23 {
+        width: 100%;
+        top: 50px;
+         min-height:220px;
+    }
+    .in-banner24 {
+        width: 100%;
+        top: 50px;
+        min-height:220px;
+    }
+    .in-banner25 {
+        width: 100%;
+        top: 50px;
+        min-height:220px;
+    }
+    .in-banner26 {
+        width: 100%;
+
+        top: 50px;
+       min-height:220px;
+    }
+    .in-banner27 {
+        width: 100%;
+        top: 50px;
+       min-height:220px;
+    }
+    .in-banner28 {
+        width: 100%;
+        top: 50px;
+        min-height:220px;
+    }
+    .in-banner29 {
+        width: 100%;
+        top: 50px;
+      min-height:220px;
+    }
+    .in-banner30 {
+        width: 100%;
+        top: 50px;
+        min-height:220px;
+    }
+    .in-banner31 {
+        width: 100%;
+        top: 50px;
+        min-height:220px;
+    }
+    .in-banner32 {
+        width: 100%;
+        top: 50px;
+      min-height:220px;
+    }
+    .in-banner33 {
+        width: 100%;
+        top: 50px;
+       min-height:220px;
+    }
+    .in-banner34 {
+        width: 100%;
+        top: 50px;
+      min-height:220px;
+    }
+    .in-banner35 {
+        width: 100%;
+        top: 50px;
+       min-height:220px;
+    }
+    .in-banner36 {
+        width: 100%;
+        top: 50px;
+       min-height:220px;
+    }
+    .in-banner37 {
+        width: 100%;
+        top: 50px;
+        min-height:220px;
+    }
+    .in-banner38 {
+        width: 100%;
+        top: 50px;
+       min-height:220px;
+    }
+    .in-banner39 {
+        width: 100%;
+        top: 50px;
+      min-height:220px;
+    }.in-banner40 {
+        width: 100%;
+        top: 50px;
+       min-height:220px;
+    }.in-banner41 {
+        width: 100%;
+        top: 50px;
+       min-height:220px;
+    }
+     .in-banner42 {
+        width: 100%;
+        top: 50px;
+      min-height:220px;
+    }
+.in-banner43 {
+        width: 100%;
+        top: 50px;
+      min-height:220px;
+    }
+        .inheading {
+   
+    top: -99px;
+    
+}
+    .linkstitle1 {
+    margin-bottom: 93px;
+}
+   
+    .navbar-brand img {
+    float: left;
+    width: 39%;
+}
+    .twitter-title {
+    margin-top: -19px;
+    background: #1d9bf0;
+    color: #fff;
+    padding: 6px 8px;
+    /* margin: 0px; */
+}
+    section.social-media-sec .col-lg-4 {
+    margin-bottom: 92px !IMPORTANT;
+}
+    /*.pdf-reaport {
+    width: 100%;
+    height: auto;
+}*/
+    .Industrialblock {
+        display: flex;
+        flex-direction: column;
+    }
+     #aboutus-tabs .tab-btn.tab-open::after {
+        display:none;
+    }
+   .button-new {
+    width: 151px;
+}
+    .uplogo img {
+        display: none;
+    }
+    .why-upsida2 .brand-upsida {
+        box-shadow: 2px 2px 5px 1px #ccc;
+        align-items: stretch;
+        height: auto;
+    }
+    .navbar-brand {
+        display: inline-block;
+        width: 45%;
+    }
+
+    .service {
+      
+    margin-bottom: 283px;
+
+    }
+
+    .logo {
+        background-image: url("../images/logo-2.jpg");
+        display: none;
+    }
+
+    .social ul {
+        display: block;
+    }
+
+    .grivance-btn {
+        position: fixed;
+    top: 27%;
+    display: block;
+    z-index: 999;
+    right: -104px;
+    background-color: #ff0000;
+    color: #fff;
+    padding: 3px 10px;
+    transform: rotate(90deg);
+    font-size: 20px;
+    border: 1px solid #fff;
+    }
+
+    .impo-information li {
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .carousel-inner {
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .b-lead h4 {
+        display: none;
+    }
+
+    .b-lead p {
+        display: none;
+    }
+
+    .b-lead {
+        padding: 6px;
+        width: 110px;
+        height: 110px;
+    }
+
+    .b-lead-r {
+        top: 32%;
+        left: 6%;
+    }
+
+    .w-100 {
+        min-height: 253px;
+    }
+
+    .linkstitle1 span {
+        font-size: 32px;
+    }
+
+    .linkstitle span {
+        font-size: 32px;
+    }
+
+    .leader1 {
+        padding: 11px 0px;
+    }
+
+    section.aboutUs p {
+        font-size: 18px;
+        text-align: justify;
+        padding: 20px 0px;
+    }
+
+    .tbox {
+        text-align: center;
+    }
+
+        .tbox span {
+            text-align: center;
+        }
+
+    .social-media-sec {
+        padding: 14px 0;
+    }
+
+   .linkstitle1 {
+        margin-bottom: 41px;
+}
+
+    .projects {
+        padding: 22px 0px;
+    }
+
+    .feat_section .panel-default {
+        margin: 20px auto;
+    }
+
+    .linkstitle:before {
+        width: 16px;
+        height: 16px;
+        bottom: -8px;
+    }
+
+    .linkstitle1:before {
+        width: 16px;
+        height: 16px;
+        bottom: -8px;
+    }
+
+    .contentarea {
+        padding: 10px;
+    }
+
+    .ct-h2 {
+        padding: 20px 0px;
+    }
+
+    .in-banner {
+        margin-top: 62px;
+    }
+
+    .inner-heading span:after {
+        display: none;
+        border-bottom: 41px solid #f69a03;
+        border-right: 40px solid transparent;
+        right: -40px;
+        top: 0px;
+    }
+
+    .loginlogo {
+        width: 54%;
+    }
+    #gallery .gallery-inner3 .titels-3 {
+        margin-top: -117px;
+    width: 79.3%;
+    font-size: 15px;
+    }
+    #aboutus-tabs .tabs-content{
+        width: 100%;
+        align-items: stretch;
+}
+#aboutus-tabs .tabs-btn{
+     width: 100%;
+       align-items: stretch;
+
+}
+ #polices-tabs .tabs-content{
+        width: 100%;
+        align-items: stretch;
+}
+#polices-tabs .tabs-btn{
+     width: 100%;
+       align-items: stretch;
+
+}
+.head-group .bg-head-office-info {
+    margin-left:0px;
+        margin-top: 20px;
+  width: 526px;
+    }
+.mmps{
+       width: 493px;
+    
+ }
+
+.leader3 .text-group22 input{
+      
+    width: 100%;
+}
+
+.tables-sec table thead .pdf-selection3 {
+    width: 70%;
+}.tables-sec table .calendar {
+   
+  width:100%;
+    text-align: center;
+     margin-right: 0px;
+  
+}.tables-sec .table td button {
+    padding: 8px 22px;
+  
+}
+}
+
+@media (max-width: 480px) {
+	.notice-ui li.news-item {
+    width: 100%;
+    float: left;
+ 
+}
+	
+    .in-banner {
+        width: 100%;
+        top: 50px;
+            min-height: 182px;
+    }
+     .in-banner1 {
+        width: 100%;
+        top: 50px;
+           min-height: 182px;
+    }
+     .in-banner2 {
+        width: 100%;
+        top: 50px;
+          min-height: 182px;
+    }
+    .in-banner3 {
+        width: 100%;
+        top: 50px;
+            min-height: 182px;
+    }
+    .in-banner4 {
+        width: 100%;
+        top: 50px;
+            min-height: 182px;
+    }
+    .in-banner5 {
+        width: 100%;
+        top: 50px;
+           min-height: 182px;
+    }
+    .in-banner6 {
+        width: 100%;
+        top: 50px;
+           min-height: 182px;
+    }
+    .in-banner7 {
+        width: 100%;
+        top: 50px;
+           min-height: 182px;
+    }
+    .in-banner8 {
+        width: 100%;
+        top: 50px;
+            min-height: 182px;
+    }
+    .in-banner9 {
+        width: 100%;
+        top: 50px;
+           min-height: 182px;
+    }
+    .in-banner10 {
+        width: 100%;
+        top: 50px;
+           min-height: 182px;
+    }
+    .in-banner11 {
+        width: 100%;
+        top: 50px;
+            min-height: 182px;
+    }
+    .in-banner12 {
+        width: 100%;
+        top: 50px;
+           min-height: 182px;
+    }
+    .in-banner13 {
+        width: 100%;
+        top: 50px;
+           min-height: 182px;
+    }
+    .in-banner14 {
+        width: 100%;
+        top: 50px;
+           min-height: 182px;
+    }
+    .in-banner15 {
+        width: 100%;
+        top: 50px;
+            min-height: 182px;
+    }
+    .in-banner16 {
+        width: 100%;
+        top: 50px;
+           min-height: 182px;
+    }
+    .in-banner17 {
+        width: 100%;
+        top: 50px;
+            min-height: 182px;
+    }
+    .in-banner18 {
+        width: 100%;
+        top: 50px;
+           min-height: 182px;
+    }
+    .in-banner19 {
+        width: 100%;
+        top: 50px;
+           min-height: 182px;
+    }
+    .in-banner20 {
+        width: 100%;
+        top: 50px;
+           min-height: 182px;
+    }
+    .in-banner21 {
+        width: 100%;
+        top: 50px;
+           min-height: 182px;
+    }
+    .in-banner22 {
+        width: 100%;
+        top: 50px;
+           min-height: 182px;
+    }
+    .in-banner23 {
+        width: 100%;
+        top: 50px;
+            min-height: 182px;
+    }
+    .in-banner24 {
+        width: 100%;
+        top: 50px;
+          min-height: 182px;
+    }
+    .in-banner25 {
+        width: 100%;
+        top: 50px;
+           min-height: 182px;
+    }
+    .in-banner26 {
+        width: 100%;
+        top: 50px;
+            min-height: 182px;
+    }
+    .in-banner27 {
+        width: 100%;
+        top: 50px;
+            min-height: 182px;
+    }
+    .in-banner28 {
+        width: 100%;
+        top: 50px;
+           min-height: 182px;
+    }
+    .in-banner29 {
+        width: 100%;
+        top: 50px;
+           min-height: 182px;
+    }
+    .in-banner30 {
+        width: 100%;
+        top: 50px;
+            min-height: 182px;
+    }
+    .in-banner31 {
+        width: 100%;
+        top: 50px;
+            min-height: 182px;
+    }
+    .in-banner32 {
+        width: 100%;
+        top: 50px;
+            min-height: 182px;
+    }
+    .in-banner33 {
+        width: 100%;
+        top: 50px;
+           min-height: 182px;
+    }
+    .in-banner34 {
+        width: 100%;
+        top: 50px;
+            min-height: 182px;
+    }
+    .in-banner35 {
+        width: 100%;
+        top: 50px;
+            min-height: 182px;
+    }
+    .in-banner36 {
+        width: 100%;
+        top: 50px;
+          min-height: 182px;
+    }
+    .in-banner37 {
+        width: 100%;
+        top: 50px;
+         min-height: 182px;
+    }
+    .in-banner38 {
+        width: 100%;
+        top: 50px;
+           min-height: 182px;
+    }
+    .in-banner39 {
+        width: 100%;
+        top: 50px;
+           min-height: 182px;
+    }.in-banner40 {
+        width: 100%;
+        top: 50px;
+           min-height: 182px;
+    }.in-banner41 {
+        width: 100%;
+        top: 50px;
+          min-height: 182px;
+    }
+     .in-banner42 {
+        width: 100%;
+        top: 50px;
+            min-height: 182px;
+    }
+.in-banner43 {
+        width: 100%;
+        top: 50px;
+      min-height:220px;
+    }
+        .inheading {
+   
+    top: -99px;
+    
+}
+    .linkstitle1 {
+    margin-bottom: 93px;
+}
+   
+    .twitter-title {
+    margin-top: -19px;
+    background: #1d9bf0;
+    color: #fff;
+    padding: 6px 8px;
+    /* margin: 0px; */
+}
+    section.social-media-sec .col-lg-4 {
+    margin-bottom: 92px !IMPORTANT;
+}
+    .contentarea34, .contentarea {
+    padding: 20px 7px;
+}
+    /*.pdf-reaport {
+    width: 100%;
+    height: auto;
+}*/
+    .all-sector li {
+    width: 100%;
+}
+    .Industrialblock {
+        display: flex;
+        flex-direction: column;
+    }
+     #aboutus-tabs .tab-btn.tab-open::after {
+        display:none;
+    }
+    .button-new {
+                width: 151px;
+    }
+     .main .card-back {
+    display: none;
+
+}
+    .main .card:hover {
+        width: 15rem;
+    }
+    .inheading h2 {
+        color: #fff;
+        font-size: 20px;
+    }
+
+    .uplogo img {
+        display: none;
+    }
+
+    section.leader {
+        background: #fffdf6;
+      padding: 73px 0px;
+    }
+
+    .navbar-brand {
+    display: inline-block;
+    width: 22%;
+}
+
+    .flip-box-front p {
+        font-size: 20px;
+    }
+
+    .navbar-brand img {
+        float: right;
+        width: 100%;
+    }
+
+    .service {margin-bottom: 103px;
+    }
+
+    .logo {
+        background-image: url("../images/logo-2.jpg");
+        display: none;
+    }
+
+    .social ul {
+        display: block;
+    }
+
+    .grivance-btn {
+        position: fixed;
+        top: 22%;
+        display: block;
+        z-index: 999;
+        right: -71px;
+        background-color: #ff0000;
+        color: #fff;
+        padding: 3px 10px;
+        transform: rotate(90deg);
+        font-size: 20px;
+        border: 1px solid #fff;
+    }
+
+    .impo-information li {
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .announcement h3 {
+        font-size: 22px;
+        background: #f69a03;
+        padding: 7px 55px;
+    }
+
+    .carousel-inner {
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .b-lead h4 {
+        display: none;
+    }
+
+    .b-lead p {
+        display: none;
+    }
+
+    .b-lead {
+        padding: 6px;
+        width: 110px;
+        height: 110px;
+    }
+
+    .b-lead-r {
+        top: 35%;
+        left: 9%;
+    }
+
+    .w-100 {
+        min-height: 253px;
+    }
+
+    .linkstitle1 span {
+        font-size: 30px;
+    }
+
+    .social ul li i {
+        margin-left: 10px;
+        color: rgb(0, 0, 0);
+        padding: 10px;
+        border-radius: 100%;
+        width: 35px;
+        height: 35px;
+        font-size: 21px;
+        background: rgb(255, 255, 255);
+        transform: rotate(0deg);
+    }
+
+    .social ul li {
+        display: inline-block;
+        margin: 6px;
+        background: rgb(255 255 255);
+        width: 288px;
+        text-align: right;
+        padding: 2px;
+        transition: all 1s ease 0s;
+    }
+
+    .grivance-btn {
+        position: fixed;
+    top: 27%;
+    display: block;
+    z-index: 999;
+    right: -89px;
+    background-color: #ff0000;
+    color: #fff;
+    padding: 3px 10px;
+    transform: rotate(90deg);
+    font-size: 17px;
+    border: 1px solid #fff;
+    }
+
+    .linkstitle span {
+        font-size: 30px;
+    }
+
+    .all-sector li a {
+        font-size: 18px;
+    }
+
+    .card-header.secondry-heading {
+        font-size: 26px;
+    }
+
+    li.news-item tr td {
+        font-size: 18px;
+        display: block;
+        padding: 5px 15px;
+    }
+
+    a.govt-logoarea h5 {
+        font-size: 18px;
+    }
+
+    footer a {
+        font-size: 18px;
+    }
+
+    h4.f-title {
+        font-size: 26px;
+    }
+
+    .leader1 {
+        padding: 11px 0px;
+    }
+
+    section.aboutUs p {
+        font-size: 18px;
+        text-align: justify;
+        padding: 20px 0px;
+    }
+
+    .tbox {
+        text-align: center;
+    }
+
+        .tbox span {
+            text-align: center;
+        }
+
+    .social-media-sec {
+        padding: 14px 0;
+    }
+
+    .linkstitle1 {
+      margin-bottom: 49px;
+    }
+
+    .projects {
+        padding: 22px 0px;
+    }
+
+    .feat_section .panel-default {
+        margin: 20px auto;
+    }
+
+    .linkstitle:before {
+        width: 16px;
+        height: 16px;
+        bottom: -8px;
+    }
+
+    .linkstitle1:before {
+        width: 16px;
+        height: 16px;
+        bottom: -8px;
+    }
+
+    .contentarea {
+           padding: 67px 0px;
+    }
+
+    .in-banner {
+        margin-top: 62px;
+    }
+
+    .ct-h2 {
+        padding: 20px 0px;
+    }
+
+    .inner-heading span:after {
+        display: none;
+        border-bottom: 41px solid #f69a03;
+        border-right: 40px solid transparent;
+        right: -40px;
+        top: 0px;
+    }
+
+    .service {
+           margin-bottom: 200px;
+    }
+
+    .news-sec:before {
+        display: block;
+        left: 6px;
+        top: -10px;
+    }
+
+
+
+    .news-sec:after {
+        display: block;
+        right: 5px;
+        bottom: -10px;
+    }
+
+    .announcement h3 {
+        font-size: 22px;
+        background: #f69a03;
+        padding: 7px 55px;
+    }
+
+    .track-btn {
+        position: fixed;
+        top: 44%;
+        right: -97px;
+    }
+
+    .loginlogo {
+        width: 54%;
+    }
+
+
+
+    .trans-ganga table td {
+        padding: 0px;
+       
+        border: 1px solid;
+        vertical-align: middle;
+        flex-direction: column;
+    }
+
+    .trans-ganga table {
+        display: flex;
+        flex-flow: row wrap;
+    }
+
+    .trans-ganga p {
+        width: 304px;
+    }
+    /*Brand Association start*/
+    .assosiation .brand .brand-items {
+    width: 187px;
+}
+    /*Brand Association End*/
+    .tables-sec table td img {
+    width: 15%;
+}
+     #gallery .gallery-inner3 .titels-3 {
+    margin-top: -99px;
+    width: 83.3%;
+    font-size: 14px;
+  
+}
+     #aboutus-tabs .tabs-content{
+        width: 100%;
+        align-items: stretch;
+}
+#aboutus-tabs .tabs-btn{
+     width: 100%;
+       align-items: stretch;
+
+}
+  #polices-tabs .tabs-content{
+        width: 100%;
+        align-items: stretch;
+}
+#polices-tabs .tabs-btn{
+     width: 100%;
+       align-items: stretch;
+
+}
+.head-group .bg-head-office-info {
+    margin-left:0px;
+        margin-top: 20px;
+        width: 343px;
+    }
+.mmps{
+         width: 343px;
+    
+ }
+
+.leader3 .text-group22 input{
+      
+    width: 100%;
+}
+
+.tables-sec table thead .pdf-selection3 {
+    width: 70%;
+}.tables-sec table .calendar {
+   
+  width:100%;
+    text-align: center;
+     margin-right: 0px;
+  
+}.tables-sec .table td button {
+    padding: 8px 22px;
+  
+}
+ .tables-sec table thead .pdf-selection34 {
+    width: 62%;
+}
+  .breadcrumb li {
+    font-size: 18px;
+}
+}
+
+@media (max-width: 360px) {
+     .in-banner {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+     .in-banner1 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+     .in-banner2 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+    .in-banner3 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+    .in-banner4 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+    .in-banner5 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+    .in-banner6 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+    .in-banner7 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+    .in-banner8 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+    .in-banner9 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+    .in-banner10 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+    .in-banner11 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+    .in-banner12 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+    .in-banner13 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+    .in-banner14 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+    .in-banner15 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+    .in-banner16 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+    .in-banner17 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+    .in-banner18 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+    .in-banner19 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+    .in-banner20 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+    .in-banner21 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+    .in-banner22 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+    .in-banner23 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+    .in-banner24 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+    .in-banner25 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+    .in-banner26 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+    .in-banner27 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+    .in-banner28 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+    .in-banner29 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+    .in-banner30 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+    .in-banner31 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+    .in-banner32 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+    .in-banner33 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+    .in-banner34 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+    .in-banner35 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+    .in-banner36 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+    .in-banner37 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+    .in-banner38 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+    .in-banner39 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }.in-banner40 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }.in-banner41 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+     .in-banner42 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+.in-banner43 {
+        width: 100%;
+        top: 50px;
+      min-height:220px;
+    }
+        .inheading {
+   
+    top: -99px;
+    
+}
+    .linkstitle1 {
+     margin-bottom: 71px;
+}
+    .twitter-title {
+    margin-top: -19px;
+    background: #1d9bf0;
+    color: #fff;
+    padding: 6px 8px;
+    /* margin: 0px; */
+}
+    section.social-media-sec .col-lg-4 {
+    margin-bottom: 92px !IMPORTANT;
+}
+    .all-sector li {
+    width: 100%;
+}
+    .contentarea34, .contentarea {
+    
+    padding: 70px 7px;
+}
+    .breadcrumb li {
+    font-size: 15px;
+}
+    /*.pdf-reaport {
+    width: 100%;
+    height: auto;
+}*/
+    .Industrialblock {
+        display: flex;
+        flex-direction: column;
+    }
+    #aboutus-tabs .tab-btn.tab-open::after {
+        display:none;
+    }
+    .button-new {
+            width: 151px;
+    }
+     .main .card-back {
+    display: none;
+
+}
+    .main .card:hover {
+        width: 15rem;
+    }
+    .track-btn {
+        position: fixed;
+        top: 44%;
+        right: -97px;
+    }
+
+    .service {
+        margin-bottom: 103px;
+    }
+
+    .inheading h2 {
+        color: #fff;
+      font-size: 17px;
+    }
+
+    .loginlogo {
+        width: 54%;
+    }
+
+
+
+    .trans-ganga table td {
+        padding: 0px;
+       
+        border: 1px solid;
+        vertical-align: middle;
+        flex-direction: column;
+    }
+
+    .trans-ganga table {
+        display: flex;
+        flex-flow: row wrap;
+    }
+
+    .trans-ganga p {
+           width: 284px;
+    }/*Brand Association start*/
+    .assosiation .brand .brand-items {
+    width: 136px;
+
+}
+    /*Brand Association End*/
+    .tables-sec table td img {
+    width: 7%;
+}
+     #gallery .gallery-inner3 .titels-3 {
+            margin-top: -94px;
+    width: 84%;
+    font-size: 15px;
+    }
+     #aboutus-tabs .tabs-content{
+        width: 100%;
+        align-items: stretch;
+}
+#aboutus-tabs .tabs-btn{
+     width: 100%;
+       align-items: stretch;
+
+}
+#polices-tabs .tabs-content{
+        width: 100%;
+        align-items: stretch;
+}
+#polices-tabs .tabs-btn{
+     width: 100%;
+       align-items: stretch;
+
+}
+.head-group .bg-head-office-info {
+    margin-left:0px;
+        margin-top: 20px;
+        width: 272px;
+    }
+.mmps{
+          width: 230px;
+    
+ }
+
+.leader3 .text-group22 input{
+      
+    width: 100%;
+}
+
+.tables-sec table thead .pdf-selection3 {
+    width: 70%;
+}.tables-sec table .calendar {
+   
+  width:100%;
+    text-align: center;
+     margin-right: 0px;
+  
+}.tables-sec .table td button {
+    padding: 8px 22px;
+  
+}
+ .tables-sec table thead .pdf-selection34 {
+    width: 62%;
+}
+}
+
+/* Mobile devices */
+@media (max-width: 320px) {
+    .videos44{
+    display:flex !important;
+    flex-direction:column !important;
+
+}
+.in-banner {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+     .in-banner1 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+     .in-banner2 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+    .in-banner3 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+    .in-banner4 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+    .in-banner5 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+    .in-banner6 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+    .in-banner7 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+    .in-banner8 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+    .in-banner9 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+    .in-banner10 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+    .in-banner11 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+    .in-banner12 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+    .in-banner13 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+    .in-banner14 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+    .in-banner15 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+    .in-banner16 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+    .in-banner17 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+    .in-banner18 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+    .in-banner19 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+    .in-banner20 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+    .in-banner21 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+    .in-banner22 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+    .in-banner23 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+    .in-banner24 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+    .in-banner25 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+    .in-banner26 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+    .in-banner27 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+    .in-banner28 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+    .in-banner29 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+    .in-banner30 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+    .in-banner31 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+    .in-banner32 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+    .in-banner33 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+    .in-banner34 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+    .in-banner35 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+    .in-banner36 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+    .in-banner37 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+    .in-banner38 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+    .in-banner39 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }.in-banner40 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }.in-banner41 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+     .in-banner42 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+.in-banner43 {
+        width: 100%;
+        top: 50px;
+      min-height:220px;
+    }
+        .inheading {
+   
+    top: -99px;
+    
+}
+    .linkstitle1 {
+    margin-bottom: 93px;
+}
+   
+    .twitter-title {
+    margin-top: -19px;
+    background: #1d9bf0;
+    color: #fff;
+    padding: 6px 8px;
+    /* margin: 0px; */
+}
+    section.social-media-sec .col-lg-4 {
+    margin-bottom: 92px !IMPORTANT;
+}
+    .all-sector li {
+    width: 100%;
+}
+    .contentarea34, .contentarea {
+    
+    padding: 20px 7px;
+
+}
+     .breadcrumb li {
+    font-size: 15px;
+}
+    /*.pdf-reaport {
+    width: 100%;
+    height: 1000px;
+}*/
+    .Industrialblock {
+        display: flex;
+        flex-direction: column;
+    }
+    #aboutus-tabs .tab-btn.tab-open::after {
+        display:none;
+    }
+   .button-new {
+    width: 151px;
+}
+    .main .card-back {
+    display: none;
+
+}
+    .main .card:hover {
+        width: 15rem;
+    }
+    .uplogo img {
+        display: none;
+    }
+
+    .inheading h2 {
+        color: #fff;
+        font-size: 15px;
+    }
+
+    .navbar-brand {
+        display: inline-block;
+        width: 45%;
+    }
+
+    .service {
+            margin-bottom: 48px;
+    }
+
+    .news-sec:before {
+        display: none;
+        left: 6px;
+        top: -10px;
+    }
+
+    div#exampleModal3 .modal-content {
+        width: 100%;
+        margin: auto;
+        height: auto;
+    }
+
+    div#exampleModal2 .modal-content {
+        width: 100%;
+        margin: auto;
+        height: auto;
+    }
+
+    #exampleModal3 .modal-dialog {
+        max-width: 100% !important;
+    }
+
+    #exampleModal2 .modal-dialog {
+        max-width: 100% !important;
+    }
+
+    .news-sec:after {
+        display: none;
+        right: 5px;
+        bottom: -10px;
+    }
+
+    .logo {
+        background-image: url("../images/logo-2.jpg");
+        display: none;
+    }
+
+    .social ul {
+        display: block;
+    }
+
+        .social ul li i {
+            margin-left: 10px;
+            color: rgb(0, 0, 0);
+            padding: 10px;
+            border-radius: 100%;
+            width: 35px;
+            height: 35px;
+            font-size: 21px;
+            background: rgb(255, 255, 255);
+            transform: rotate(0deg);
+        }
+
+        .social ul li {
+            display: inline-block;
+            margin: 6px;
+            background: rgb(255 255 255);
+            width: 288px;
+            text-align: right;
+            padding: 2px;
+            transition: all 1s ease 0s;
+        }
+
+    .grivance-btn {
+      position: fixed;
+    top: 29%;
+    display: block;
+    z-index: 999;
+    right: -101px;
+    background-color: #ff0000;
+    color: #fff;
+    padding: 3px 10px;
+    transform: rotate(90deg);
+    font-size: 20px;
+    border: 1px solid #fff;
+    }
+
+    .flip-box-front p {
+        font-size: 15px;
+    }
+
+    .impo-information li {
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .carousel-inner {
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .b-lead h4 {
+        display: none;
+    }
+
+    .b-lead p {
+        display: none;
+    }
+
+    .b-lead {
+        padding: 6px;
+        width: 110px;
+        height: 110px;
+    }
+
+    .b-lead-r {
+        top: 32%;
+        left: 14%;
+    }
+
+    .w-100 {
+        min-height: 253px;
+    }
+
+    .linkstitle1 span {
+        font-size: 32px;
+    }
+
+    .linkstitle span {
+        font-size: 32px;
+    }
+
+    .leader1 {
+        padding: 11px 0px;
+    }
+
+    section.aboutUs p {
+        font-size: 15px;
+        text-align: justify;
+        padding: 20px 0px;
+    }
+
+    .tbox {
+        text-align: center;
+    }
+
+        .tbox span {
+            text-align: center;
+        }
+
+    .social-media-sec {
+        padding: 14px 0;
+    }
+
+    .linkstitle1 {
+        margin-bottom: 59px;
+    }
+
+    .projects {
+        padding: 22px 0px;
+    }
+
+    .feat_section .panel-default {
+        margin: 20px auto;
+    }
+
+    .linkstitle:before {
+        width: 16px;
+        height: 16px;
+        bottom: -8px;
+    }
+
+    .linkstitle1:before {
+        width: 16px;
+        height: 16px;
+        bottom: -8px;
+    }
+
+    .contentarea {
+       padding: 65px 0px;
+    }
+
+    .tbox a {
+        font-size: 20px;
+    }
+
+    section.leader {
+        background: #fffdf6;
+           padding: 77px 0px;
+    }
+
+    li.news-item tr td {
+        font-size: 15px;
+        padding: 10px 15px;
+    }
+
+    a.govt-logoarea h5 {
+        font-size: 15px;
+    }
+
+    footer a {
+        font-size: 15px;
+    }
+
+    .card-header.secondry-heading {
+        font-size: 22px;
+    }
+
+    .figure {
+        background: #ffffff;
+        padding: 20px 0;
+    }
+
+    .impo-information li a {
+        font-size: 15px;
+        text-transform: capitalize;
+    }
+
+    .ct-h2 {
+        padding: 20px 0px;
+    }
+
+    .inner-heading span:after {
+        display: none;
+        border-bottom: 41px solid #f69a03;
+        border-right: 40px solid transparent;
+        right: -40px;
+        top: 0px;
+    }
+
+    .announcement h3 {
+        font-size: 22px;
+        background: #f69a03;
+        padding: 7px 55px;
+    }
+
+    .in-banner {
+        margin-top: 62px;
+    }
+
+    .loginlogo {
+        width: 54%;
+    }
+
+    .track-btn {
+        position: fixed;
+        top: 44%;
+        right: -97px;
+    }
+
+
+
+
+    .trans-ganga table td {
+        padding: 0px;
+       
+        border: 1px solid;
+        vertical-align: middle;
+        flex-direction: column;
+    }
+
+    .trans-ganga table {
+        display: flex;
+        flex-flow: row wrap;
+    }
+
+    .trans-ganga p {
+        width: 238px;
+    }/*Brand Association start*/
+    .assosiation .brand .brand-items {
+    width: 100%;
+}
+    /*Brand Association End*/
+   .tables-sec table td img {
+    width: 36%;
+}
+    #gallery .gallery-inner3 .titels-3 {
+        margin-top: -96px;
+        width: 84%;
+        font-size: 12px;
+    }
+    #aboutus-tabs .tabs-content{
+        width: 100%;
+        align-items: stretch;
+}
+#aboutus-tabs .tabs-btn{
+     width: 100%;
+       align-items: stretch;
+
+}
+#polices-tabs .tabs-content{
+        width: 100%;
+        align-items: stretch;
+}
+#polices-tabs .tabs-btn{
+     width: 100%;
+       align-items: stretch;
+
+}
+    .head-group .bg-head-office-info {
+    margin-left:0px;
+        margin-top: 20px;
+        width: 214px;
+    }
+.mmps{
+      width: 170px;
+    
+ }
+.leader3 .text-group22 input{
+      
+    width: 100%;
+}
+
+.tables-sec table thead .pdf-selection3 {
+    width: 70%;
+}.tables-sec table .calendar {
+   
+  width:100%;
+    text-align: center;
+     margin-right: 0px;
+  
+}.tables-sec .table td button {
+    padding: 8px 22px;
+  
+}
+ .tables-sec table thead .pdf-selection34 {
+    width: 62%;
+}
+    .why-upsida2 .brand-upsida {
+        box-shadow: 2px 2px 5px 1px #ccc;
+        align-items: stretch;
+        height: auto;
+    }
+}
+
+
+@media (max-width: 320px) {
+	.notice-ui li.news-item {
+    width: 100%;
+    float: left;
+ 
+}
+	
+    .in-banner {
+        width: 100%;
+        top: 50px;
+            min-height: 182px;
+    }
+     .in-banner1 {
+        width: 100%;
+        top: 50px;
+           min-height: 182px;
+    }
+     .in-banner2 {
+        width: 100%;
+        top: 50px;
+          min-height: 182px;
+    }
+    .in-banner3 {
+        width: 100%;
+        top: 50px;
+            min-height: 182px;
+    }
+    .in-banner4 {
+        width: 100%;
+        top: 50px;
+            min-height: 182px;
+    }
+    .in-banner5 {
+        width: 100%;
+        top: 50px;
+           min-height: 182px;
+    }
+    .in-banner6 {
+        width: 100%;
+        top: 50px;
+           min-height: 182px;
+    }
+    .in-banner7 {
+        width: 100%;
+        top: 50px;
+           min-height: 182px;
+    }
+    .in-banner8 {
+        width: 100%;
+        top: 50px;
+            min-height: 182px;
+    }
+    .in-banner9 {
+        width: 100%;
+        top: 50px;
+           min-height: 182px;
+    }
+    .in-banner10 {
+        width: 100%;
+        top: 50px;
+           min-height: 182px;
+    }
+    .in-banner11 {
+        width: 100%;
+        top: 50px;
+            min-height: 182px;
+    }
+    .in-banner12 {
+        width: 100%;
+        top: 50px;
+           min-height: 182px;
+    }
+    .in-banner13 {
+        width: 100%;
+        top: 50px;
+           min-height: 182px;
+    }
+    .in-banner14 {
+        width: 100%;
+        top: 50px;
+           min-height: 182px;
+    }
+    .in-banner15 {
+        width: 100%;
+        top: 50px;
+            min-height: 182px;
+    }
+    .in-banner16 {
+        width: 100%;
+        top: 50px;
+           min-height: 182px;
+    }
+    .in-banner17 {
+        width: 100%;
+        top: 50px;
+            min-height: 182px;
+    }
+    .in-banner18 {
+        width: 100%;
+        top: 50px;
+           min-height: 182px;
+    }
+    .in-banner19 {
+        width: 100%;
+        top: 50px;
+           min-height: 182px;
+    }
+    .in-banner20 {
+        width: 100%;
+        top: 50px;
+           min-height: 182px;
+    }
+    .in-banner21 {
+        width: 100%;
+        top: 50px;
+           min-height: 182px;
+    }
+    .in-banner22 {
+        width: 100%;
+        top: 50px;
+           min-height: 182px;
+    }
+    .in-banner23 {
+        width: 100%;
+        top: 50px;
+            min-height: 182px;
+    }
+    .in-banner24 {
+        width: 100%;
+        top: 50px;
+          min-height: 182px;
+    }
+    .in-banner25 {
+        width: 100%;
+        top: 50px;
+           min-height: 182px;
+    }
+    .in-banner26 {
+        width: 100%;
+        top: 50px;
+            min-height: 182px;
+    }
+    .in-banner27 {
+        width: 100%;
+        top: 50px;
+            min-height: 182px;
+    }
+    .in-banner28 {
+        width: 100%;
+        top: 50px;
+           min-height: 182px;
+    }
+    .in-banner29 {
+        width: 100%;
+        top: 50px;
+           min-height: 182px;
+    }
+    .in-banner30 {
+        width: 100%;
+        top: 50px;
+            min-height: 182px;
+    }
+    .in-banner31 {
+        width: 100%;
+        top: 50px;
+            min-height: 182px;
+    }
+    .in-banner32 {
+        width: 100%;
+        top: 50px;
+            min-height: 182px;
+    }
+    .in-banner33 {
+        width: 100%;
+        top: 50px;
+           min-height: 182px;
+    }
+    .in-banner34 {
+        width: 100%;
+        top: 50px;
+            min-height: 182px;
+    }
+    .in-banner35 {
+        width: 100%;
+        top: 50px;
+            min-height: 182px;
+    }
+    .in-banner36 {
+        width: 100%;
+        top: 50px;
+          min-height: 182px;
+    }
+    .in-banner37 {
+        width: 100%;
+        top: 50px;
+         min-height: 182px;
+    }
+    .in-banner38 {
+        width: 100%;
+        top: 50px;
+           min-height: 182px;
+    }
+    .in-banner39 {
+        width: 100%;
+        top: 50px;
+           min-height: 182px;
+    }.in-banner40 {
+        width: 100%;
+        top: 50px;
+           min-height: 182px;
+    }.in-banner41 {
+        width: 100%;
+        top: 50px;
+          min-height: 182px;
+    }
+     .in-banner42 {
+        width: 100%;
+        top: 50px;
+            min-height: 182px;
+    }
+.in-banner43 {
+        width: 100%;
+        top: 50px;
+      min-height:220px;
+    }
+        .inheading {
+   
+    top: -99px;
+    
+}
+    .linkstitle1 {
+    margin-bottom: 93px;
+}
+   
+    .twitter-title {
+    margin-top: -19px;
+    background: #1d9bf0;
+    color: #fff;
+    padding: 6px 8px;
+    /* margin: 0px; */
+}
+    section.social-media-sec .col-lg-4 {
+    margin-bottom: 92px !IMPORTANT;
+}
+    .contentarea34, .contentarea {
+    padding: 20px 7px;
+}
+    /*.pdf-reaport {
+    width: 100%;
+    height: auto;
+}*/
+    .all-sector li {
+    width: 100%;
+}
+    .Industrialblock {
+        display: flex;
+        flex-direction: column;
+    }
+     #aboutus-tabs .tab-btn.tab-open::after {
+        display:none;
+    }
+    .button-new {
+                width: 151px;
+    }
+     .main .card-back {
+    display: none;
+
+}
+    .main .card:hover {
+        width: 15rem;
+    }
+    .inheading h2 {
+        color: #fff;
+        font-size: 20px;
+    }
+
+    .uplogo img {
+        display: none;
+    }
+
+    section.leader {
+        background: #fffdf6;
+      padding: 73px 0px;
+    }
+
+    .navbar-brand {
+    display: inline-block;
+    width: 22%;
+}
+
+    .flip-box-front p {
+        font-size: 20px;
+    }
+
+    .navbar-brand img {
+        float: right;
+        width: 100%;
+    }
+
+    .service {margin-bottom: 103px;
+    }
+
+    .logo {
+        background-image: url("../images/logo-2.jpg");
+        display: none;
+    }
+
+    .social ul {
+        display: block;
+    }
+
+    .grivance-btn {
+        position: fixed;
+        top: 22%;
+        display: block;
+        z-index: 999;
+        right: -71px;
+        background-color: #ff0000;
+        color: #fff;
+        padding: 3px 10px;
+        transform: rotate(90deg);
+        font-size: 20px;
+        border: 1px solid #fff;
+    }
+
+    .impo-information li {
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .announcement h3 {
+        font-size: 22px;
+        background: #f69a03;
+        padding: 7px 55px;
+    }
+
+    .carousel-inner {
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .b-lead h4 {
+        display: none;
+    }
+
+    .b-lead p {
+        display: none;
+    }
+
+    .b-lead {
+        padding: 6px;
+        width: 110px;
+        height: 110px;
+    }
+
+    .b-lead-r {
+        top: 35%;
+        left: 9%;
+    }
+
+    .w-100 {
+        min-height: 253px;
+    }
+
+    .linkstitle1 span {
+        font-size: 30px;
+    }
+
+    .social ul li i {
+        margin-left: 10px;
+        color: rgb(0, 0, 0);
+        padding: 10px;
+        border-radius: 100%;
+        width: 35px;
+        height: 35px;
+        font-size: 21px;
+        background: rgb(255, 255, 255);
+        transform: rotate(0deg);
+    }
+
+    .social ul li {
+        display: inline-block;
+        margin: 6px;
+        background: rgb(255 255 255);
+        width: 288px;
+        text-align: right;
+        padding: 2px;
+        transition: all 1s ease 0s;
+    }
+
+    .grivance-btn {
+        position: fixed;
+    top: 27%;
+    display: block;
+    z-index: 999;
+    right: -89px;
+    background-color: #ff0000;
+    color: #fff;
+    padding: 3px 10px;
+    transform: rotate(90deg);
+    font-size: 17px;
+    border: 1px solid #fff;
+    }
+
+    .linkstitle span {
+        font-size: 30px;
+    }
+
+    .all-sector li a {
+        font-size: 18px;
+    }
+
+    .card-header.secondry-heading {
+        font-size: 26px;
+    }
+
+    li.news-item tr td {
+        font-size: 18px;
+        display: block;
+        padding: 5px 15px;
+    }
+
+    a.govt-logoarea h5 {
+        font-size: 18px;
+    }
+
+    footer a {
+        font-size: 18px;
+    }
+
+    h4.f-title {
+        font-size: 26px;
+    }
+
+    .leader1 {
+        padding: 11px 0px;
+    }
+
+    section.aboutUs p {
+        font-size: 18px;
+        text-align: justify;
+        padding: 20px 0px;
+    }
+
+    .tbox {
+        text-align: center;
+    }
+
+        .tbox span {
+            text-align: center;
+        }
+
+    .social-media-sec {
+        padding: 14px 0;
+    }
+
+    .linkstitle1 {
+      margin-bottom: 49px;
+    }
+
+    .projects {
+        padding: 22px 0px;
+    }
+
+    .feat_section .panel-default {
+        margin: 20px auto;
+    }
+
+    .linkstitle:before {
+        width: 16px;
+        height: 16px;
+        bottom: -8px;
+    }
+
+    .linkstitle1:before {
+        width: 16px;
+        height: 16px;
+        bottom: -8px;
+    }
+
+    .contentarea {
+           padding: 67px 0px;
+    }
+
+    .in-banner {
+        margin-top: 62px;
+    }
+
+    .ct-h2 {
+        padding: 20px 0px;
+    }
+
+    .inner-heading span:after {
+        display: none;
+        border-bottom: 41px solid #f69a03;
+        border-right: 40px solid transparent;
+        right: -40px;
+        top: 0px;
+    }
+
+    .service {
+           margin-bottom: 200px;
+    }
+
+    .news-sec:before {
+        display: block;
+        left: 6px;
+        top: -10px;
+    }
+
+
+
+    .news-sec:after {
+        display: block;
+        right: 5px;
+        bottom: -10px;
+    }
+
+    .announcement h3 {
+        font-size: 22px;
+        background: #f69a03;
+        padding: 7px 55px;
+    }
+
+    .track-btn {
+        position: fixed;
+        top: 44%;
+        right: -97px;
+    }
+
+    .loginlogo {
+        width: 54%;
+    }
+
+
+
+    .trans-ganga table td {
+        padding: 0px;
+       
+        border: 1px solid;
+        vertical-align: middle;
+        flex-direction: column;
+    }
+
+    .trans-ganga table {
+        display: flex;
+        flex-flow: row wrap;
+    }
+
+    .trans-ganga p {
+        width: 304px;
+    }
+    /*Brand Association start*/
+    .assosiation .brand .brand-items {
+    width: 187px;
+}
+    /*Brand Association End*/
+    .tables-sec table td img {
+    width: 15%;
+}
+     #gallery .gallery-inner3 .titels-3 {
+    margin-top: -99px;
+    width: 83.3%;
+    font-size: 14px;
+  
+}
+     #aboutus-tabs .tabs-content{
+        width: 100%;
+        align-items: stretch;
+}
+#aboutus-tabs .tabs-btn{
+     width: 100%;
+       align-items: stretch;
+
+}
+  #polices-tabs .tabs-content{
+        width: 100%;
+        align-items: stretch;
+}
+#polices-tabs .tabs-btn{
+     width: 100%;
+       align-items: stretch;
+
+}
+.head-group .bg-head-office-info {
+    margin-left:0px;
+        margin-top: 20px;
+        width: 343px;
+    }
+.mmps{
+         width: 343px;
+    
+ }
+
+.leader3 .text-group22 input{
+      
+    width: 100%;
+}
+
+.tables-sec table thead .pdf-selection3 {
+    width: 70%;
+}.tables-sec table .calendar {
+   
+  width:100%;
+    text-align: center;
+     margin-right: 0px;
+  
+}.tables-sec .table td button {
+    padding: 8px 22px;
+  
+}
+ .tables-sec table thead .pdf-selection34 {
+    width: 62%;
+}
+  .breadcrumb li {
+    font-size: 18px;
+}
+.grivance-btn32 {
+    position: fixed;
+    top: 60%;
+}
+}
+
+@media (max-width: 360px) {
+     .in-banner {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+     .in-banner1 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+     .in-banner2 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+    .in-banner3 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+    .in-banner4 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+    .in-banner5 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+    .in-banner6 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+    .in-banner7 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+    .in-banner8 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+    .in-banner9 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+    .in-banner10 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+    .in-banner11 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+    .in-banner12 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+    .in-banner13 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+    .in-banner14 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+    .in-banner15 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+    .in-banner16 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+    .in-banner17 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+    .in-banner18 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+    .in-banner19 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+    .in-banner20 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+    .in-banner21 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+    .in-banner22 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+    .in-banner23 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+    .in-banner24 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+    .in-banner25 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+    .in-banner26 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+    .in-banner27 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+    .in-banner28 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+    .in-banner29 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+    .in-banner30 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+    .in-banner31 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+    .in-banner32 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+    .in-banner33 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+    .in-banner34 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+    .in-banner35 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+    .in-banner36 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+    .in-banner37 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+    .in-banner38 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+    .in-banner39 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }.in-banner40 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }.in-banner41 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+     .in-banner42 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+.in-banner43 {
+        width: 100%;
+        top: 50px;
+      min-height:220px;
+    }
+        .inheading {
+   
+    top: -99px;
+    
+}
+    .linkstitle1 {
+     margin-bottom: 71px;
+}
+    .twitter-title {
+    margin-top: -19px;
+    background: #1d9bf0;
+    color: #fff;
+    padding: 6px 8px;
+    /* margin: 0px; */
+}
+    section.social-media-sec .col-lg-4 {
+    margin-bottom: 92px !IMPORTANT;
+}
+    .all-sector li {
+    width: 100%;
+}
+    .contentarea34, .contentarea {
+    
+    padding: 70px 7px;
+}
+    .breadcrumb li {
+    font-size: 15px;
+}
+    /*.pdf-reaport {
+    width: 100%;
+    height: auto;
+}*/
+    .Industrialblock {
+        display: flex;
+        flex-direction: column;
+    }
+    #aboutus-tabs .tab-btn.tab-open::after {
+        display:none;
+    }
+    .button-new {
+            width: 151px;
+    }
+     .main .card-back {
+    display: none;
+
+}
+    .main .card:hover {
+        width: 15rem;
+    }
+    .track-btn {
+        position: fixed;
+        top: 44%;
+        right: -97px;
+    }
+
+    .service {
+        margin-bottom: 103px;
+    }
+
+    .inheading h2 {
+        color: #fff;
+      font-size: 17px;
+    }
+
+    .loginlogo {
+        width: 54%;
+    }
+
+
+
+    .trans-ganga table td {
+        padding: 0px;
+       
+        border: 1px solid;
+        vertical-align: middle;
+        flex-direction: column;
+    }
+
+    .trans-ganga table {
+        display: flex;
+        flex-flow: row wrap;
+    }
+
+    .trans-ganga p {
+           width: 284px;
+    }/*Brand Association start*/
+    .assosiation .brand .brand-items {
+    width: 136px;
+
+}
+    /*Brand Association End*/
+    .tables-sec table td img {
+    width: 7%;
+}
+     #gallery .gallery-inner3 .titels-3 {
+            margin-top: -94px;
+    width: 84%;
+    font-size: 15px;
+    }
+     #aboutus-tabs .tabs-content{
+        width: 100%;
+        align-items: stretch;
+}
+#aboutus-tabs .tabs-btn{
+     width: 100%;
+       align-items: stretch;
+
+}
+#polices-tabs .tabs-content{
+        width: 100%;
+        align-items: stretch;
+}
+#polices-tabs .tabs-btn{
+     width: 100%;
+       align-items: stretch;
+
+}
+.head-group .bg-head-office-info {
+    margin-left:0px;
+        margin-top: 20px;
+        width: 272px;
+    }
+.mmps{
+          width: 230px;
+    
+ }
+
+.leader3 .text-group22 input{
+      
+    width: 100%;
+}
+
+.tables-sec table thead .pdf-selection3 {
+    width: 70%;
+}.tables-sec table .calendar {
+   
+  width:100%;
+    text-align: center;
+     margin-right: 0px;
+  
+}.tables-sec .table td button {
+    padding: 8px 22px;
+  
+}
+ .tables-sec table thead .pdf-selection34 {
+    width: 62%;
+}
+.grivance-btn32 {
+    position: fixed;
+    top: 60%;
+}
+}
+
+/* Mobile devices */
+@media (max-width: 320px) {
+    .videos44{
+    display:flex !important;
+    flex-direction:column !important;
+
+}
+
+.grivance-btn32 {
+    position: fixed;
+    top: 60%;
+}
+
+.in-banner {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+     .in-banner1 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+     .in-banner2 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+    .in-banner3 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+    .in-banner4 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+    .in-banner5 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+    .in-banner6 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+    .in-banner7 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+    .in-banner8 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+    .in-banner9 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+    .in-banner10 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+    .in-banner11 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+    .in-banner12 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+    .in-banner13 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+    .in-banner14 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+    .in-banner15 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+    .in-banner16 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+    .in-banner17 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+    .in-banner18 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+    .in-banner19 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+    .in-banner20 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+    .in-banner21 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+    .in-banner22 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+    .in-banner23 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+    .in-banner24 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+    .in-banner25 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+    .in-banner26 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+    .in-banner27 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+    .in-banner28 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+    .in-banner29 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+    .in-banner30 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+    .in-banner31 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+    .in-banner32 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+    .in-banner33 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+    .in-banner34 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+    .in-banner35 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+    .in-banner36 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+    .in-banner37 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+    .in-banner38 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+    .in-banner39 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }.in-banner40 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }.in-banner41 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+     .in-banner42 {
+        width: 100%;
+        top: 50px;
+        min-height: 122px;
+    }
+.in-banner43 {
+        width: 100%;
+        top: 50px;
+      min-height:220px;
+    }
+        .inheading {
+   
+    top: -99px;
+    
+}
+    .linkstitle1 {
+    margin-bottom: 93px;
+}
+   
+    .twitter-title {
+    margin-top: -19px;
+    background: #1d9bf0;
+    color: #fff;
+    padding: 6px 8px;
+    /* margin: 0px; */
+}
+    section.social-media-sec .col-lg-4 {
+    margin-bottom: 92px !IMPORTANT;
+}
+    .all-sector li {
+    width: 100%;
+}
+    .contentarea34, .contentarea {
+    
+    padding: 20px 7px;
+
+}
+     .breadcrumb li {
+    font-size: 15px;
+}
+    /*.pdf-reaport {
+    width: 100%;
+    height: 1000px;
+}*/
+    .Industrialblock {
+        display: flex;
+        flex-direction: column;
+    }
+    #aboutus-tabs .tab-btn.tab-open::after {
+        display:none;
+    }
+   .button-new {
+    width: 151px;
+}
+    .main .card-back {
+    display: none;
+
+}
+    .main .card:hover {
+        width: 15rem;
+    }
+    .uplogo img {
+        display: none;
+    }
+
+    .inheading h2 {
+        color: #fff;
+        font-size: 15px;
+    }
+
+    .navbar-brand {
+        display: inline-block;
+        width: 45%;
+    }
+
+    .service {
+            margin-bottom: 48px;
+    }
+
+    .news-sec:before {
+        display: none;
+        left: 6px;
+        top: -10px;
+    }
+
+    div#exampleModal3 .modal-content {
+        width: 100%;
+        margin: auto;
+        height: auto;
+    }
+
+    div#exampleModal2 .modal-content {
+        width: 100%;
+        margin: auto;
+        height: auto;
+    }
+
+    #exampleModal3 .modal-dialog {
+        max-width: 100% !important;
+    }
+
+    #exampleModal2 .modal-dialog {
+        max-width: 100% !important;
+    }
+
+    .news-sec:after {
+        display: none;
+        right: 5px;
+        bottom: -10px;
+    }
+
+    .logo {
+        background-image: url("../images/logo-2.jpg");
+        display: none;
+    }
+
+    .social ul {
+        display: block;
+    }
+
+        .social ul li i {
+            margin-left: 10px;
+            color: rgb(0, 0, 0);
+            padding: 10px;
+            border-radius: 100%;
+            width: 35px;
+            height: 35px;
+            font-size: 21px;
+            background: rgb(255, 255, 255);
+            transform: rotate(0deg);
+        }
+
+        .social ul li {
+            display: inline-block;
+            margin: 6px;
+            background: rgb(255 255 255);
+            width: 288px;
+            text-align: right;
+            padding: 2px;
+            transition: all 1s ease 0s;
+        }
+
+    .grivance-btn {
+      position: fixed;
+    top: 29%;
+    display: block;
+    z-index: 999;
+    right: -101px;
+    background-color: #ff0000;
+    color: #fff;
+    padding: 3px 10px;
+    transform: rotate(90deg);
+    font-size: 20px;
+    border: 1px solid #fff;
+    }
+
+    .flip-box-front p {
+        font-size: 15px;
+    }
+
+    .impo-information li {
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .carousel-inner {
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .b-lead h4 {
+        display: none;
+    }
+
+    .b-lead p {
+        display: none;
+    }
+
+    .b-lead {
+        padding: 6px;
+        width: 110px;
+        height: 110px;
+    }
+
+    .b-lead-r {
+        top: 32%;
+        left: 14%;
+    }
+
+    .w-100 {
+        min-height: 253px;
+    }
+
+    .linkstitle1 span {
+        font-size: 32px;
+    }
+
+    .linkstitle span {
+        font-size: 32px;
+    }
+
+    .leader1 {
+        padding: 11px 0px;
+    }
+
+    section.aboutUs p {
+        font-size: 15px;
+        text-align: justify;
+        padding: 20px 0px;
+    }
+
+    .tbox {
+        text-align: center;
+    }
+
+        .tbox span {
+            text-align: center;
+        }
+
+    .social-media-sec {
+        padding: 14px 0;
+    }
+
+    .linkstitle1 {
+        margin-bottom: 59px;
+    }
+
+    .projects {
+        padding: 22px 0px;
+    }
+
+    .feat_section .panel-default {
+        margin: 20px auto;
+    }
+
+    .linkstitle:before {
+        width: 16px;
+        height: 16px;
+        bottom: -8px;
+    }
+
+    .linkstitle1:before {
+        width: 16px;
+        height: 16px;
+        bottom: -8px;
+    }
+
+    .contentarea {
+       padding: 65px 0px;
+    }
+
+    .tbox a {
+        font-size: 20px;
+    }
+
+    section.leader {
+        background: #fffdf6;
+           padding: 77px 0px;
+    }
+
+    li.news-item tr td {
+        font-size: 15px;
+        padding: 10px 15px;
+    }
+
+    a.govt-logoarea h5 {
+        font-size: 15px;
+    }
+
+    footer a {
+        font-size: 15px;
+    }
+
+    .card-header.secondry-heading {
+        font-size: 22px;
+    }
+
+    .figure {
+        background: #ffffff;
+        padding: 20px 0;
+    }
+
+    .impo-information li a {
+        font-size: 15px;
+        text-transform: capitalize;
+    }
+
+    .ct-h2 {
+        padding: 20px 0px;
+    }
+
+    .inner-heading span:after {
+        display: none;
+        border-bottom: 41px solid #f69a03;
+        border-right: 40px solid transparent;
+        right: -40px;
+        top: 0px;
+    }
+
+    .announcement h3 {
+        font-size: 22px;
+        background: #f69a03;
+        padding: 7px 55px;
+    }
+
+    .in-banner {
+        margin-top: 62px;
+    }
+
+    .loginlogo {
+        width: 54%;
+    }
+
+    .track-btn {
+        position: fixed;
+        top: 44%;
+        right: -97px;
+    }
+
+
+
+
+    .trans-ganga table td {
+        padding: 0px;
+       
+        border: 1px solid;
+        vertical-align: middle;
+        flex-direction: column;
+    }
+
+    .trans-ganga table {
+        display: flex;
+        flex-flow: row wrap;
+    }
+
+    .trans-ganga p {
+        width: 238px;
+    }/*Brand Association start*/
+    .assosiation .brand .brand-items {
+    width: 100%;
+}
+    /*Brand Association End*/
+   .tables-sec table td img {
+    width: 36%;
+}
+    #gallery .gallery-inner3 .titels-3 {
+        margin-top: -96px;
+        width: 84%;
+        font-size: 12px;
+    }
+    #aboutus-tabs .tabs-content{
+        width: 100%;
+        align-items: stretch;
+}
+#aboutus-tabs .tabs-btn{
+     width: 100%;
+       align-items: stretch;
+
+}
+#polices-tabs .tabs-content{
+        width: 100%;
+        align-items: stretch;
+}
+#polices-tabs .tabs-btn{
+     width: 100%;
+       align-items: stretch;
+
+}
+    .head-group .bg-head-office-info {
+    margin-left:0px;
+        margin-top: 20px;
+        width: 214px;
+    }
+.mmps{
+      width: 170px;
+    
+ }
+.leader3 .text-group22 input{
+      
+    width: 100%;
+}
+
+.tables-sec table thead .pdf-selection3 {
+    width: 70%;
+}.tables-sec table .calendar {
+   
+  width:100%;
+    text-align: center;
+     margin-right: 0px;
+  
+}.tables-sec .table td button {
+    padding: 8px 22px;
+  
+}
+ .tables-sec table thead .pdf-selection34 {
+    width: 62%;
+}
+    .why-upsida2 .brand-upsida {
+        box-shadow: 2px 2px 5px 1px #ccc;
+        align-items: stretch;
+        height: auto;
+    }
+}
+/**
+ * 9.0 Print
+ * ----------------------------------------------------------------------------
+ */
+
+/* Retina-specific styles. */
+@media print, (-o-min-device-pixel-ratio: 5/4), (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi) {
+}
+
+@media print {
+}

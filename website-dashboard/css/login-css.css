@@ -1,0 +1,97 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+.login-bg{ background-image:url(../imgaes/bg.png); background-repeat:no-repeat;background-size: cover;}
+.register{ padding:25px;}
+label {
+    display: inline-block;
+    margin-bottom: .6rem;
+    color: #333;
+    font-weight: 800;
+    font-size: 1.2rem;
+}
+form.user .btn-user {font-size: 1.1rem;margin-top: 2rem;} 
+.register .title, .login .title{ text-align:center; position:relative;}
+.register .title h1,.login .title h1{color: #220059;font-size: 2.5em; position:relative; padding-bottom:15px; margin-bottom:15px;font-weight: bold;}
+.register .title:after,.login .title:after{ content:""; height:1px; background-color:#624198; position:absolute; bottom:0; left:0; right:0; margin:0px auto; width:20%;} 
+.register .checkbox-inline{ margin-right:10px; margin-bottom:0px;}
+.logo{ padding-top:10px;}
+.logo img{ max-height:100px;}
+form.user .form-control-user{height: 55px;border-radius: 0px !important;}
+.instruction{ color:#fff; padding-top:20px; padding-right:75px; font-size:14px;}
+.instruction h4{ font-weight:bold;}
+.instruction ul{ margin:0px; padding:0px; list-style:none;}
+.instruction ul li{ margin-bottom:10px;}
+.login{padding: 19% 80px;}
+.foot{ border-top:1px solid rgba(0,0,0,.1); padding-top:9px; font-size:13px;}
+.vheight{height:94vh;}
+.small-ig {font-size: 1.1rem;font-weight: 600;color: #000 !important;}
+.login p {color:#000;}
+.login {
+    padding: 91px;
+}
+ .login-bg {     
+    background-image: url(../imgaes/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+ @media (max-width: 768px) {
+
+    .login-bg {
+      background-image: none;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+
+    .login {
+        padding: 41px;
+    }
+    .vheight {
+    height: 11vh;
+}
+}
+
+ @media (max-width: 480px) {
+
+    .login-bg {
+        background-image: none;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+
+    .login {
+        padding: 1px;
+    }
+}
+@media (max-width: 360px) {
+
+    .login-bg {
+        background-image: none;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+
+    .login {
+        padding: 1px;
+    }
+}
+@media (max-width: 320px) {
+ 
+  .login-bg {
+    background-image: none;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+
+  .login {
+    padding: 1px;
+}
+  .vheight {
+    height: 5vh;
+}
+}
