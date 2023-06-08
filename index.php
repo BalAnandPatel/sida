@@ -332,28 +332,28 @@ include "include/header.php";
     </section>
     <section class="aboutUs">
         <div class="container ">
-            <div class="linkstitle"><span>About UPSIDA</span></div>
+            <div class="linkstitle"><span>About SIDA</span></div>
             <div class="row">
                 <div class="col-12 col-lg-4 news-sec vert-move">
                     <img src="images/upsidc.jpg" alt="upsidc" class="mx-auto d-block img-fluid ">
                 </div>
                 <div class="col-12 col-lg-8">
-                    <p>The Uttar Pradesh State Industrial Development Authority (UPSIDA) is the central
+                    <p>The Satharia Industrial Development Authority (SIDA) is the central
                         organization charged with the growth of industry and infrastructure. It has been a
                         pioneer for industrial promotion in the state for many years and has been critical
                         in maintaining the state's numero uno position among other states. With new and
-                        macroscale land banks at quintessential locations, UPSIDA has spaces for industrial,
+                        macroscale land banks at quintessential locations, SIDA has spaces for industrial,
                         Commercial, and Rental properties promoting development, skill enhancement, and
                         employment to millions of people</p>
-                    <p>UPSIDA has developed 154 industrial areas in Uttar Pradesh on a total of 43,788.54
+                    <p>SIDA has developed 154 industrial areas in Uttar Pradesh on a total of 508
                         acres of land.</p>
                     <!--<p>Uttar Pradesh has been a leader in the industrial sector, and we have achieved this position with consistent efforts. We have taken right steps and in effect industries are not just coming to Uttar Pradesh from other states, but huge investments are flowing in from overseas also. Foreign investors are eager to invest in various sectors in the state after being convinced of the change in culture and ease of doing business. UPSIDA is the nodal agency for developing industrial infrastructure. UPSIDA has been spearheading the industrial promotion in the State and has been instrumental in keeping the State at the numero uno position among the states for several decades now. Till date, UPSIDA has developed a record 154 industrial areas on approximately 43,788.54 acres of land across Uttar Pradesh. </p>-->
                     <div class="row">
                         <div class="col-12 col-lg-3 col-md-3 tbox">
-                            <a href="#whyupsida">Why<span>UPSIDA</span></a>
+                            <a href="#whyupsida">Why<span>SIDA</span></a>
                         </div>
                         <div class="col-12 col-lg-3 col-md-3 tbox">
-                            <a href="#investupsidain">Invest <span>In UPSIDA</span></a>
+                            <a href="#investupsidain">Invest <span>In SIDA</span></a>
                         </div>
                         <div class="col-12 col-lg-3 col-md-3 tbox">
                             <a href="#Expertise">How <span>We Support</span></a>
@@ -366,7 +366,7 @@ include "include/header.php";
     <section class="figure">
         <div class="container">
             <div class="linkstitle">
-                <span>UPSIDA is the nodal agency mandated for<br />
+                <span>SIDA is the nodal agency mandated for<br />
                     organized industrial development
                 </span>
             </div>
@@ -730,7 +730,7 @@ include "include/header.php";
                                 <img src="images/support3.png" alt="ACHIEVEMENTS OF UPSIDA"
                                     title="ACHIEVEMENTS OF UPSIDA">
                             </span>
-                            ACHIEVEMENTS OF UPSIDA
+                            ACHIEVEMENTS OF SIDA
                         </a>
                     </li>
                     <li tabindex="0">
