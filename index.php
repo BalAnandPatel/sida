@@ -11,23 +11,23 @@ include "include/header.php";
                             <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>-->
             </ol>
             <div class="carousel-inner">
-                <div class="carousel-item active">
+                <!-- <div class="carousel-item active">
                     <video preload="none" id="myVideo" loop muted autoplay>
                         <source src="videoplayback.mp4" type="video/mp4">
                     </video>
+                </div> -->
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="images/slider/slider-1.jpg" alt="First slide">
                 </div>
-                <!--  <div class="carousel-item ">
-                                <a href="" target="_blank"><img class="d-block w-100" src="images/slider-5.jpg" alt="First slide"></a>
-                            </div>
-                            <div class="carousel-item">
-                                <img class="d-block w-100" src="images/slider-6.jpg" alt="First slide">
-                            </div>
-                            <div class="carousel-item">
-                                <img class="d-block w-100" src="images/slider-2.jpg" alt="Second slide">
-                            </div>
-                            <div class="carousel-item">
-                                <img class="d-block w-100" src="images/slider-3.jpg" alt="Third slide">
-                            </div>-->
+                <!-- <div class="carousel-item">
+                    <img class="d-block w-100" src="images/slider-6.jpg" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="images/slider-2.jpg" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="images/slider-3.jpg" alt="Third slide">
+                </div> -->
             </div>
 
             <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -335,7 +335,7 @@ include "include/header.php";
             <div class="linkstitle"><span>About SIDA</span></div>
             <div class="row">
                 <div class="col-12 col-lg-4 news-sec vert-move">
-                    <img src="images/upsidc.jpg" alt="upsidc" class="mx-auto d-block img-fluid ">
+                    <img src="images/building_2-svg.png" alt="upsidc" class="mx-auto d-block img-fluid ">
                 </div>
                 <div class="col-12 col-lg-8">
                     <p>The Satharia Industrial Development Authority (SIDA) is the central
@@ -451,6 +451,7 @@ include "include/header.php";
             <div class="clearfix"></div>
         </div>
     </section>
+
     <section class="counterup project_stats">
         <div class="container">
             <div class="feat_section">
@@ -606,62 +607,61 @@ include "include/header.php";
             <div class="row">
                 <div class="col-lg-4 col-md-4 col-sm-12">
                     <figure class="snip1206">
-                        <img src="images/transganga.jpg" alt="TRANS GANGA" />
+                        <img src="images/slider/img-2.jpg" alt="TRANS GANGA" />
                         <figcaption>
-                            <h2>TRANS GANGA CITY, UNNAO</h2>
-                            <p>UNNAO</p>
+                            <h2>Pepsi</h2>
+                            <p>SATHARIA</p>
                         </figcaption>
                         <a href="ganga-unnao.php"></a>
                     </figure>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-12">
                     <figure class="snip1206">
-                        <img src="images/sarswati.jpg" alt="Saraswati HI-TECH" />
+                        <img src="images/slider/img-5.jpg" alt="Saraswati HI-TECH" />
                         <figcaption>
-                            <h2>Saraswati HI-TECH City</h2>
-                            <p>PRAYAGRAJ</p>
+                            <h2>Pepsi</h2>
+                            <p>SATHARIA</p>
                         </figcaption>
                         <a href="sarawati-citys.php"></a>
                     </figure>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-12">
                     <figure class="snip1206">
-                        <img src="images/trans-delhi.jpg" alt="Flatted Factory, Surajpur" />
+                        <img src="images/slider/img-4.jpg" alt="Mega Food Park" />
                         <figcaption>
-                            <h2>Flatted Factory</h2>
-                            <p>Surajpur</p>
-                        </figcaption>
-                        <a href="surajpur-factory.php"></a>
-                    </figure>
-                </div>
-
-                <div class="col-lg-4 col-md-4 col-sm-12">
-                    <figure class="snip1206">
-                        <img src="images/auriya.jpg" alt="Auraiya" />
-                        <figcaption>
-                            <h2>Industrial Area Dibiyapur
-                            </h2>
-                            <p>Auraiya</p>
-                        </figcaption>
-                        <a href="pp-auraiya.php"></a>
-                    </figure>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-12">
-                    <figure class="snip1206">
-                        <img src="images/baheri-index.png" alt="Mega Food Park" />
-                        <figcaption>
-                            <h2>Mega Food Park Baheri</h2>
-                            <p>Baheri </p>
+                            <h2>Abhinav Steel and Power Ltd </h2>
+                            <p>SATHARIA </p>
                         </figcaption>
                         <a href="mfp-baheri.php"></a>
                     </figure>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-12">
                     <figure class="snip1206">
-                        <img src="images/kauunja.jpg" alt="Perfume Park" />
+                        <img src="images/slider/satharia-map.png" alt="Flatted Factory, Surajpur" />
                         <figcaption>
-                            <h2>Perfume Park</h2>
-                            <p>Kannauj</p>
+                            <h2>Industrial Area Satharia</h2>
+                            <p>SATHARIA</p>
+                        </figcaption>
+                        <a href="surajpur-factory.php"></a>
+                    </figure>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <figure class="snip1206">
+                        <img src="images/slider/img-3.jpg" alt="Auraiya" />
+                        <figcaption>
+                            <h2>Industrial Area Satharia</h2>
+                            <p>SATHARIA</p>
+                        </figcaption>
+                        <a href="pp-auraiya.php"></a>
+                    </figure>
+                </div>
+                
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <figure class="snip1206">
+                        <img src="images/slider/img-6.jpg" alt="Perfume Park" />
+                        <figcaption>
+                            <h2>Abhinav Steel and Power Ltd </h2>
+                            <p>SATHARIA</p>
                         </figcaption>
                         <a href="pp-kannauj.php"></a>
                     </figure>
@@ -669,10 +669,10 @@ include "include/header.php";
                 <div class="col-lg-4 col-md-4 col-sm-12"></div>
                 <div class="col-lg-4 col-md-4 col-sm-12">
                     <figure class="snip1206">
-                        <img src="images/agra-park.jpg" alt="Perfume Park" />
+                        <img src="images/slider/img-1.jpg" alt="Perfume Park" />
                         <figcaption>
-                            <h2>Integrated Manufacturing Cluster</h2>
-                            <p>Agra</p>
+                            <h2>Abhinav Steel and Power Ltd </h2>
+                            <p>SATHARIA</p>
                         </figcaption>
                         <a href="cluster-agra.php"></a>
                     </figure>

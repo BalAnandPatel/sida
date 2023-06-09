@@ -109,7 +109,7 @@
                 <div class="container-fluid">
                     <div class="logo" style="padding: 0px;">
                         <a href="index.php" class="external selected">
-                            <img src="images/logo.png" class="img-responsive uplogo"
+                            <img src="images/logo-col.png" class="img-responsive uplogo"
                                 alt="Logo of Jaunpur SIDA Department" title="Sida Jaunpur">
                         </a>
                     </div>
